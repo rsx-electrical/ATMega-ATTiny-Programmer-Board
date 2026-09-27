@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ProgrammerBoard.kicad_pro",
+    "filename": "ATMega.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -424,17 +424,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ProgrammerBoard.kicad_sch",
+        "filename": "ATMega.kicad_sch",
         "name": "Root",
-        "uuid": "eddff067-1d03-431d-9638-fe5f49ec946b"
+        "uuid": "f57ee854-066e-4fa1-a69d-b0abf4011cd7"
       }
     ],
-    "used_designators": "J1,U1",
+    "used_designators": "U1",
     "variants": []
   },
   "sheets": [
     [
-      "eddff067-1d03-431d-9638-fe5f49ec946b",
+      "f57ee854-066e-4fa1-a69d-b0abf4011cd7",
       "Root"
     ]
   ],
