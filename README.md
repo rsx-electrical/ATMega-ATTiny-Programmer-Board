@@ -1,5 +1,9 @@
 # ATMega ATTiny Programmer Board
-UofT RSX's ATMega/ATTiny Programmer Board KiCad PCB designs for programming standalone ATMega328[tbd] and ATTiny[tbd] microcontrollers. May use Arduino or custom peripheral as the programmer. By using the microcontroller directly, custom boards can be smaller and cheaper.
+UofT RSX's ATMega/ATTiny Programmer Board KiCad PCB designs for programming standalone ATMega328[tbd] and ATTiny[tbd] microcontrollers. May use Arduino or custom peripheral as the programmer. By programming the microcontroller directly, custom boards can be smaller and cheaper.
+
+## To-do
+- Replace ATTiny chip with chip socket
+- Add header pins in size of arduino
 
 ## Materials
 - USB-to-Serial/TTL adapter or Arduino Uno
@@ -7,7 +11,7 @@ UofT RSX's ATMega/ATTiny Programmer Board KiCad PCB designs for programming stan
 - Electrolytic Capacitor 10uF
 - Decoupling Capacitors 100nF
 - Resistor [1 - 10kΩ]
-- ATMega328[tbd] or ATTiny[tbd]
+- ATMega328[tbd] or ATTiny[tbd] Socket
 
 ## Installation
 TBD
