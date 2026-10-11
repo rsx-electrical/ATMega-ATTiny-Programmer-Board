@@ -4,18 +4,6 @@ UofT RSX's ATMega/ATTiny Programmer Board KiCad PCB designs for programming stan
 ## To-do
 - Replace ATTiny chip with chip socket
 - Add header pins in size of arduino
-
-## Materials
-- USB-to-Serial/TTL adapter or Arduino Uno
-- Battery
-- Electrolytic Capacitor 10uF
-- Decoupling Capacitors 100nF
-- Resistor [1 - 10kΩ]
-- ATMega328[tbd] or ATTiny[tbd] Socket
-
-## Installation
-TBD
-
 ## Repository Structure 
 ```
 Programmer-Board/
@@ -36,6 +24,16 @@ Programmer-Board/
 ### v0.2 - TBD
 - 
 
-
 ### v0.1 - Init
 - General Project Struct Formed
+
+## Materials
+- USB-to-Serial/TTL adapter
+- Battery
+- Electrolytic Capacitor 10uF
+- Decoupling Capacitors 100nF
+- Resistor [1 - 10kΩ]
+- ATMega328[tbd] or ATTiny[tbd] Socket
+
+
+
