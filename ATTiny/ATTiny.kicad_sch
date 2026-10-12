@@ -476,6 +476,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "rsx_Resistors:10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RES 10K OHM 5% 1/10W 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Stackpole Electronics Inc"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DPN" "RMCF0603JT10K0CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RMCF0603JT10K0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "rsx_header:Conn_01x06_Female"
 			(pin_names
 				(offset 1.016)
@@ -1914,15 +2087,95 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "3.3V"
+	(text "10"
 		(exclude_from_sim no)
-		(at 20.828 24.384 0)
+		(at 108.712 40.894 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "29657f27-d575-4b20-a326-42ce1343b5e6")
+		(uuid "17830a5a-2924-4378-8c80-5b9c93df688e")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 108.712 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19b4088f-21bb-4ea4-bc16-c4c069ba42dc")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 24.638 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "206238c6-afb0-47a9-9fc9-b44e6b863d82")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 24.638 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e0a2035-934c-4d11-8331-04d452db4e05")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 108.712 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fa5f861-83e6-469e-a157-1b6ec2dbea48")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 108.712 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62c7b83d-85cf-4d16-9366-564b734e6167")
+	)
+	(text "VIN"
+		(exclude_from_sim no)
+		(at 24.638 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "655255fd-2c8b-43b5-a7a3-f43f8c335f23")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 24.638 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7873d83a-0343-483d-ac18-67f570176689")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 108.712 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d062876-169c-49ac-85c0-f9caab43a8e2")
 	)
 	(text "ATTiny"
 		(exclude_from_sim no)
@@ -1934,503 +2187,433 @@
 		)
 		(uuid "7de9b5f1-d0d5-48be-996e-3e5c18b004a9")
 	)
-	(text "9"
-		(exclude_from_sim no)
-		(at 79.502 32.004 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "965123d0-d10d-48a3-8d66-6249e689504e")
-	)
-	(text "5V"
-		(exclude_from_sim no)
-		(at 20.828 26.924 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bbe7dfc7-adba-4a51-822b-bc92672128a8")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 20.828 29.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c0ddc135-f3d4-4e2b-9c49-0ebb9cc1d6be")
-	)
-	(text "13"
-		(exclude_from_sim no)
-		(at 79.502 21.844 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c4629a6c-c868-449d-8274-444d8c041b4c")
-	)
-	(text "8"
-		(exclude_from_sim no)
-		(at 79.502 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c9584036-4326-4339-8121-5fc9976fd9fe")
-	)
-	(text "10"
-		(exclude_from_sim no)
-		(at 79.502 29.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cd9d73f0-34bc-46b2-84db-8526b2f858d6")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 20.828 32.004 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d11de944-bb04-450f-83a9-a18f0f41ec02")
-	)
 	(text "11"
 		(exclude_from_sim no)
-		(at 79.502 26.924 0)
+		(at 108.712 38.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "d75025b6-a16b-4d9a-b0bf-e290fa17a4c6")
-	)
-	(text "12"
-		(exclude_from_sim no)
-		(at 79.502 24.384 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ef0f2dd3-454a-4e40-86b2-c8e469d8e785")
-	)
-	(text "VIN"
-		(exclude_from_sim no)
-		(at 20.828 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f63a5eed-9996-49b5-ae5a-0e2bab11158d")
+		(uuid "b36199cf-e146-489c-8c57-4cc5b587ba2d")
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 20.828 21.844 0)
+		(at 24.638 33.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "f72efab6-33ed-49a3-9bdb-ef151e9506d6")
+		(uuid "d8ed95f8-b078-4c3b-94c8-b99d8fe0f7fd")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 24.638 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb557fdc-b85b-4d7b-af11-b90dad3499f1")
 	)
 	(no_connect
-		(at 29.21 34.29)
-		(uuid "1f2a596d-34a6-4565-bd77-22099fe0085f")
+		(at 33.02 35.56)
+		(uuid "0ff8bd1d-4c83-487f-99ef-202bfe0a823e")
 	)
 	(no_connect
-		(at 71.12 31.75)
-		(uuid "67729f6a-2b88-482b-b240-3328fe70425e")
+		(at 100.33 43.18)
+		(uuid "31da5c5c-522b-4c0a-b576-dffab2177811")
 	)
 	(no_connect
-		(at 71.12 34.29)
-		(uuid "90781057-737b-4cf3-b6d9-a9f59313cff0")
+		(at 100.33 45.72)
+		(uuid "5e85a839-ee36-4b8f-b6c2-110c97a1abbc")
 	)
 	(no_connect
-		(at 29.21 24.13)
-		(uuid "b3cfe7b4-f186-4be0-bc5c-488df84bc976")
+		(at 33.02 45.72)
+		(uuid "b265b8b8-25f9-4177-950c-5c1bed4df9f4")
 	)
 	(no_connect
-		(at 78.74 45.72)
-		(uuid "b625c115-e122-46de-9396-ac19e32474fd")
+		(at 34.29 90.17)
+		(uuid "c1f60735-bd97-4574-9ae2-ac1816cdd1fa")
 	)
 	(no_connect
-		(at 78.74 48.26)
-		(uuid "cec3c971-0161-4609-893a-bafc2d553fd1")
+		(at 34.29 92.71)
+		(uuid "c2ebe073-1950-496b-b01f-0c5d5a7aa40f")
 	)
 	(wire
 		(pts
-			(xy 29.21 26.67) (xy 31.75 26.67)
+			(xy 31.75 95.25) (xy 34.29 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11fd3237-d714-4d61-a0d7-f5796f7980a7")
+		(uuid "12cad389-fa07-42f5-a8e1-a15ecb947ef7")
 	)
 	(wire
 		(pts
-			(xy 44.45 48.26) (xy 45.72 48.26)
+			(xy 48.26 72.39) (xy 50.8 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a9bf1c6-c791-404a-9357-6133b9670b5a")
+		(uuid "1e6743b7-1aee-4129-8cba-e7681ffd5875")
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 78.74 53.34)
+			(xy 31.75 102.87) (xy 34.29 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ad5cef8-aa49-4137-a0ca-ff9561916a43")
+		(uuid "2c69b5ea-19b1-452a-bce0-55df7be970ce")
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 36.83 58.42)
+			(xy 38.1 72.39) (xy 40.64 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33cef606-e831-4de7-8cb1-c4c649054138")
+		(uuid "3298a6ea-d327-4a52-b0b4-af8edf68cb62")
 	)
 	(wire
 		(pts
-			(xy 68.58 21.59) (xy 71.12 21.59)
+			(xy 31.75 100.33) (xy 34.29 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "349be781-f4b2-4005-9252-bd59395c7a74")
+		(uuid "33856983-40af-4d98-856d-463b53c4a6df")
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 78.74 60.96)
+			(xy 97.79 38.1) (xy 100.33 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45266016-5d69-4379-8b21-728a1ee08238")
+		(uuid "4b167e49-d5f1-4895-b748-44a10251a7be")
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 78.74 55.88)
+			(xy 97.79 35.56) (xy 100.33 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4adfcb1d-9dbc-4aa5-ac62-0c321f21350c")
+		(uuid "51a34dfc-6d45-46bd-8ba4-a96445a6b791")
 	)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 78.74 43.18)
+			(xy 83.82 33.02) (xy 100.33 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60737eff-1d4a-4d01-9d46-52ca55c4de8f")
+		(uuid "5e98556a-b253-40c4-affb-2e60904c0614")
 	)
 	(wire
 		(pts
-			(xy 29.21 21.59) (xy 31.75 21.59)
+			(xy 39.37 59.69) (xy 40.64 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64109826-fa3f-4a25-bfd8-2660ec282dcc")
+		(uuid "6358a722-dd63-4b24-8a74-50d947911e34")
 	)
 	(wire
 		(pts
-			(xy 44.45 58.42) (xy 46.99 58.42)
+			(xy 97.79 40.64) (xy 100.33 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67432e18-1b69-4d0e-9111-1abc94a9608b")
+		(uuid "77c1b76a-8828-483a-b904-1fcea94b3160")
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 78.74 50.8)
+			(xy 33.02 40.64) (xy 35.56 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86fcd397-797e-4686-bfb0-e01afef51a06")
+		(uuid "77f74d87-a7e4-4431-a1fa-f70fe57749b8")
 	)
 	(wire
 		(pts
-			(xy 68.58 29.21) (xy 71.12 29.21)
+			(xy 48.26 59.69) (xy 49.53 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8811a9fc-f7ea-4444-809d-5b9cb47335aa")
+		(uuid "7c02fa0e-9ca7-4df8-aba6-55a850eec91d")
 	)
 	(wire
 		(pts
-			(xy 35.56 48.26) (xy 36.83 48.26)
+			(xy 33.02 33.02) (xy 35.56 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "899ed312-b73f-4040-83e5-58d38e21c153")
+		(uuid "836b9d22-6ea4-418b-8cb6-dacd84499d55")
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 78.74 58.42)
+			(xy 31.75 105.41) (xy 34.29 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e067a78-3dd7-4dc0-9843-0b44995c1f20")
+		(uuid "91a7a189-92c8-4f7e-b402-309ab462cfcc")
 	)
 	(wire
 		(pts
-			(xy 29.21 31.75) (xy 31.75 31.75)
+			(xy 33.02 43.18) (xy 35.56 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b07c5a19-ce44-4ac0-88c8-96f747999f31")
+		(uuid "9d304bd4-d00e-4852-83ad-b103dadccac2")
 	)
 	(wire
 		(pts
-			(xy 68.58 24.13) (xy 71.12 24.13)
+			(xy 33.02 38.1) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2f1566a-ed72-4bab-b4a1-f83f7c8e3856")
+		(uuid "a6c0daef-2fae-4da2-bfa0-76dbd64e610d")
 	)
 	(wire
 		(pts
-			(xy 29.21 29.21) (xy 31.75 29.21)
+			(xy 31.75 87.63) (xy 34.29 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c42a81d0-1c29-461c-af8e-81296c8c9cb4")
+		(uuid "b24b46b2-b6b1-4ede-bccc-0d7ab3643353")
 	)
 	(wire
 		(pts
-			(xy 68.58 26.67) (xy 71.12 26.67)
+			(xy 31.75 97.79) (xy 34.29 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd73c46c-0823-4bcf-b48a-00dc8c0c0e9b")
+		(uuid "f37688fd-25c0-4f91-abb9-842ffc568102")
+	)
+	(wire
+		(pts
+			(xy 73.66 33.02) (xy 76.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67b8616-88a7-4b1b-b501-80e1e9aaef0c")
+	)
+	(label "MISO"
+		(at 97.79 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07c66a87-15c3-49ee-9041-eadec96b2276")
+	)
+	(label "5V"
+		(at 35.56 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1142cc09-5dd8-4e49-9155-5c050c6a84ad")
+	)
+	(label "MOSI"
+		(at 31.75 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e46dd48-c8f5-49a5-8f92-12f93365e075")
+	)
+	(label "5V"
+		(at 31.75 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ebbcce0-e716-4c46-8f8a-a0e29e9f76f5")
+	)
+	(label "GND"
+		(at 50.8 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "476e25a1-27cd-41fc-82d6-9dbabda6cb5d")
+	)
+	(label "RESET"
+		(at 31.75 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5868c4be-aedc-478a-85e0-e6c84ba8fdc6")
 	)
 	(label "Capacitor_Negative"
-		(at 31.75 31.75 0)
+		(at 49.53 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "085705f2-2fe4-46e7-aeb4-859faf7b8028")
+		(uuid "744a3647-33bd-4872-bb4f-b945e7f519cf")
+	)
+	(label "GND"
+		(at 31.75 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "745086a5-9cf7-4d42-a861-28fdbf6d94ef")
+	)
+	(label "SCK"
+		(at 31.75 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b861e31-0c39-4d20-aa0d-f694a891e192")
 	)
 	(label "Capacitor_Positive"
-		(at 31.75 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c6cd1e5-b470-4743-83bd-64137ae21c11")
-	)
-	(label "13_Pin7_SCK"
-		(at 76.2 58.42 180)
+		(at 39.37 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1737341c-22d9-4189-87b7-b8079aa423d1")
-	)
-	(label "12_Pin6_MISO"
-		(at 76.2 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2750bc7e-1ee7-4fe1-a675-049cfa819c83")
-	)
-	(label "GND_Pin4"
-		(at 46.99 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30b9f240-65c0-4b1e-9ce8-94d2c0a269fa")
-	)
-	(label "10_Pin1_RESET"
-		(at 76.2 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "397b13b6-a410-483e-869e-5df5179ca72a")
-	)
-	(label "12_Pin6_MISO"
-		(at 68.58 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f7dae26-4500-4e18-851a-18a20c076988")
-	)
-	(label "GND_Pin4"
-		(at 76.2 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44da7054-5ff8-45fd-9d8a-67820a71afa3")
-	)
-	(label "10_Pin1_RESET"
-		(at 68.58 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f042fbd-abe0-42d6-af29-2cc9adfd107e")
-	)
-	(label "5V_Pin8"
-		(at 76.2 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61914700-bd9a-4cf8-b21b-c61a983201bd")
-	)
-	(label "5V_Pin8"
-		(at 34.29 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "677c335c-ef35-4e06-af97-a2f3a6f19af2")
-	)
-	(label "11_Pin5_MOSI"
-		(at 68.58 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77e2a3c6-1fc8-4214-a183-59bf6d31fbba")
-	)
-	(label "GND_Pin4"
-		(at 31.75 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a12e732-51c3-47e9-b703-30c5dc00a9d1")
-	)
-	(label "5V_Pin8"
-		(at 31.75 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "887e219a-9a9d-4331-a385-9f73ad272a03")
-	)
-	(label "11_Pin5_MOSI"
-		(at 76.2 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c6a2245-f4d2-4372-bec0-abd54154d736")
+		(uuid "853701b8-e400-4620-90b2-541b586b7244")
 	)
 	(label "Capacitor_Positive"
-		(at 35.56 48.26 180)
+		(at 35.56 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87dea8fd-f238-4d13-af90-fff3e2acb85e")
+	)
+	(label "RESET"
+		(at 97.79 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b6f34d0d-a844-4980-9f1d-357a162ac0d3")
+		(uuid "8c389544-88f3-4e70-96e0-436cf38eae87")
 	)
 	(label "Capacitor_Negative"
-		(at 45.72 48.26 0)
+		(at 35.56 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c5ad39ea-06b7-47bd-a7ff-a2d9db0983e4")
+		(uuid "ae4e5413-4655-479d-b8bc-72e8bbcecfd4")
 	)
-	(label "13_Pin7_SCK"
-		(at 68.58 21.59 180)
+	(label "5V"
+		(at 38.1 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c678d5e4-a9dc-4530-b8c0-3cf67dc8de22")
+		(uuid "b57661e4-a910-4938-9bea-14b91634b479")
+	)
+	(label "MOSI"
+		(at 97.79 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b58f9259-00c0-461c-9822-fb212fef64fe")
+	)
+	(label "SCK"
+		(at 73.66 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b82b92ed-8776-4e20-b4e1-dfcc1787a202")
+	)
+	(label "MISO"
+		(at 31.75 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdea8840-a891-4ffc-8234-e776763138c4")
+	)
+	(label "GND"
+		(at 35.56 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edfd99e0-235e-4e97-9079-d12c046ec688")
 	)
 	(symbol
-		(lib_id "rsx_header:Conn_01x06_Female")
-		(at 24.13 29.21 180)
+		(lib_id "rsx_misc:ic_conn_8pin")
+		(at 34.29 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2438,9 +2621,223 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "57a2df85-7c94-423b-9bd2-6f6cf47e6925")
+		(uuid "123ee6d2-ec39-45cf-9052-570cb062f1b9")
+		(property "Reference" "ATTiny85-20PU_Socket1"
+			(at 31.496 109.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ic_conn_8pin"
+			(at 36.576 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rsx_misc:CONN8_1-2199298-2_TEC"
+			(at 34.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773906-9_DIP_Socket_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=1-2199298-2&DocFormat=pdf"
+			(at 34.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "df3908fb-b43f-4a0f-92b1-2016a3f2fdd7")
+		)
+		(pin "7"
+			(uuid "02525fce-178d-4199-ab2b-635ee7dea4e7")
+		)
+		(pin "8"
+			(uuid "c1e5d78d-0af2-484e-9cfb-921347d3bcff")
+		)
+		(pin "5"
+			(uuid "9abcf05c-ef85-43bb-92af-795568db6a70")
+		)
+		(pin "3"
+			(uuid "6c1872d8-7fe7-46cc-a361-7594f779b2f7")
+		)
+		(pin "2"
+			(uuid "fcd8ae39-ef64-4d7d-a51b-644198a784df")
+		)
+		(pin "4"
+			(uuid "7be152e2-aeb1-4e30-9f8e-9ff3c7778517")
+		)
+		(pin "1"
+			(uuid "cbeefead-a4a3-4f9c-8021-35e0e89e913d")
+		)
+		(instances
+			(project "ATTiny"
+				(path "/46ef1815-a8ed-4d38-a82f-c72395c084aa"
+					(reference "ATTiny85-20PU_Socket1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:10k")
+		(at 80.01 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "153beee7-8437-4fbd-92d7-c48afa0e5262")
+		(property "Reference" "R1"
+			(at 80.01 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 80.01 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 80.01 34.798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 80.01 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/10W 0603"
+			(at 80.01 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 80.01 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603JT10K0CT-ND"
+			(at 80.01 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603JT10K0"
+			(at 80.01 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2734f01-c6a6-4515-b559-a583c5bc7cbb")
+		)
+		(pin "1"
+			(uuid "854ee8cf-389f-427a-85b4-45b13fad06c8")
+		)
+		(instances
+			(project "ATTiny"
+				(path "/46ef1815-a8ed-4d38-a82f-c72395c084aa"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_header:Conn_01x06_Female")
+		(at 27.94 40.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87c76484-bb34-4c99-9c92-a91a84ff0212")
 		(property "Reference" "Arduino_TL_PowerPins1"
-			(at 25.908 15.494 0)
+			(at 29.718 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2450,7 +2847,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Female"
-			(at 25.908 17.78 0)
+			(at 29.718 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2460,7 +2857,7 @@
 			)
 		)
 		(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
-			(at 24.13 29.21 0)
+			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 29.21 0)
+			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2879,7 @@
 			)
 		)
 		(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
-			(at 24.13 29.21 0)
+			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2890,7 @@
 			)
 		)
 		(property "MFR" "Sullins Connector Solutions"
-			(at 24.13 29.21 0)
+			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2504,7 +2901,7 @@
 			)
 		)
 		(property "DPN" "S7004-ND"
-			(at 24.13 29.21 0)
+			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2912,7 @@
 			)
 		)
 		(property "MPN" "PPTC061LFBN-RC"
-			(at 24.13 29.21 0)
+			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,22 +2923,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bec0848-8045-4b69-bae5-54fbb7c1ad8d")
+			(uuid "955db828-1659-4db1-9c9d-53c6e61d551b")
 		)
 		(pin "3"
-			(uuid "bdef7d2a-e458-471a-a5e3-5696aa76c3ec")
+			(uuid "1e1ed9bb-7862-4be9-8fce-2f66cd6b96c6")
 		)
 		(pin "2"
-			(uuid "c5b7a040-2fc0-45c4-bc75-bfdb18f0d1ce")
+			(uuid "c20ae4aa-6a8c-4225-a873-bd357d3f0d26")
 		)
 		(pin "4"
-			(uuid "051b5aea-c923-434e-b1f6-c66b3b0ea11e")
+			(uuid "e044a9a0-8dfd-4c72-99c8-a7f2c4bd2b24")
 		)
 		(pin "6"
-			(uuid "126709d0-26c2-43ed-a382-01124fc1ff4d")
+			(uuid "d426d3ce-d873-45c6-a107-968d87013dd7")
 		)
 		(pin "5"
-			(uuid "a547853f-8c1b-4b34-83fa-4c7329cee3e1")
+			(uuid "89d36907-9550-4772-aec6-0ca26421641a")
 		)
 		(instances
 			(project "ATTiny"
@@ -2553,121 +2950,8 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Capacitors:10u")
-		(at 40.64 48.26 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7503a415-79af-417e-921b-80fd0856790e")
-		(property "Reference" "Electrolytic_Capacitor1"
-			(at 40.64 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 40.64 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
-			(at 36.83 47.2948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 10UF 50V X5R 0805"
-			(at 40.64 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 40.64 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "490-18663-1-ND"
-			(at 40.64 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM21BR61H106KE43L"
-			(at 40.64 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76ec2d0e-0a84-4878-9810-3cdb480c22f2")
-		)
-		(pin "2"
-			(uuid "6ee3729f-8b8f-45ac-858b-908934145988")
-		)
-		(instances
-			(project "ATTiny"
-				(path "/46ef1815-a8ed-4d38-a82f-c72395c084aa"
-					(reference "Electrolytic_Capacitor1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "rsx_header:Conn_01x06_Female")
-		(at 76.2 26.67 0)
+		(at 105.41 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2675,9 +2959,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7655ae54-4f0b-4dfb-8d10-4e2d2a2e7325")
+		(uuid "894dd109-97db-49ff-9e45-639a0e1fbada")
 		(property "Reference" "Arduino_TR_DigitalPins1"
-			(at 74.93 16.002 0)
+			(at 104.14 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2687,7 +2971,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Female"
-			(at 74.93 18.034 0)
+			(at 104.14 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2697,7 +2981,7 @@
 			)
 		)
 		(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
-			(at 76.2 26.67 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 26.67 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +3003,7 @@
 			)
 		)
 		(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
-			(at 76.2 26.67 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +3014,7 @@
 			)
 		)
 		(property "MFR" "Sullins Connector Solutions"
-			(at 76.2 26.67 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +3025,7 @@
 			)
 		)
 		(property "DPN" "S7004-ND"
-			(at 76.2 26.67 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +3036,7 @@
 			)
 		)
 		(property "MPN" "PPTC061LFBN-RC"
-			(at 76.2 26.67 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,22 +3047,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "aba9003b-37a3-4b00-8ac4-d9c839dff17c")
+			(uuid "73233124-4b07-44e7-b77b-3c2e50317a52")
 		)
 		(pin "3"
-			(uuid "a46b26e2-f1c1-479a-9164-388d6274a3ee")
+			(uuid "2aedf22c-cb2b-4c0c-ad4e-61abd7f419ac")
 		)
 		(pin "2"
-			(uuid "7cc277a5-b9e2-4579-8d8a-42fdecbe5d09")
+			(uuid "01fffa36-77dc-4f7c-9eb1-07f5b9e30b67")
 		)
 		(pin "4"
-			(uuid "1fbec637-7a5d-4a2a-9534-88422fa03cf0")
+			(uuid "cf05ece4-6c68-4f83-855b-918e48365f2e")
 		)
 		(pin "6"
-			(uuid "b0ce0a15-bc1e-4bd1-9f09-e8108248ff50")
+			(uuid "4ac0daba-5263-4727-9415-fb3f87d30738")
 		)
 		(pin "5"
-			(uuid "7a39c8de-4ede-4850-a222-c43ff12f4dea")
+			(uuid "75ddd9b4-afe1-4f63-a55a-2323547d1e59")
 		)
 		(instances
 			(project "ATTiny"
@@ -2791,7 +3075,7 @@
 	)
 	(symbol
 		(lib_id "rsx_Capacitors:100n")
-		(at 36.83 58.42 0)
+		(at 40.64 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2800,9 +3084,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7eb7b550-aac9-4283-9ab6-458b8232b7f1")
+		(uuid "c60e1420-6e2e-4e42-9f24-6b3cf4e1c3b4")
 		(property "Reference" "Decoupling_Capacitor1"
-			(at 40.64 52.07 0)
+			(at 44.45 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2812,7 +3096,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 40.64 54.61 0)
+			(at 44.45 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2822,7 +3106,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 36.83 58.42 0)
+			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2834,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 36.83 58.42 0)
+			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +3130,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 36.83 58.42 0)
+			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,7 +3141,7 @@
 			)
 		)
 		(property "DPN" "399-C0603C104K5RACTUCT-ND"
-			(at 36.83 58.42 0)
+			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2868,7 +3152,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
-			(at 36.83 58.42 0)
+			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,10 +3163,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7decfc0d-115a-499a-bd93-3ef56a1183d8")
+			(uuid "3d176a02-0241-48af-8cf3-4acbd51aedfa")
 		)
 		(pin "1"
-			(uuid "208ac5db-1d65-4a79-9ce8-a13a6d6de892")
+			(uuid "1a33f4b3-a143-4cdb-8b45-95e4b6497224")
 		)
 		(instances
 			(project "ATTiny"
@@ -2894,8 +3178,9 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_misc:ic_conn_8pin")
-		(at 78.74 43.18 0)
+		(lib_id "rsx_Capacitors:10u")
+		(at 44.45 59.69 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2903,55 +3188,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e035c753-c60f-4903-a440-dcaec7645115")
-		(property "Reference" "ATTiny85-20PU_Socket1"
-			(at 75.946 65.532 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ic_conn_8pin"
-			(at 81.026 67.818 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rsx_misc:CONN8_1-2199298-2_TEC"
-			(at 78.74 43.18 0)
-			(hide yes)
+		(uuid "f83f584d-ac9f-48f2-94ee-56303a839ebe")
+		(property "Reference" "Electrolytic_Capacitor_Arduino1"
+			(at 44.45 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773906-9_DIP_Socket_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=1-2199298-2&DocFormat=pdf"
-			(at 78.74 43.18 0)
-			(hide yes)
+		(property "Value" "10u"
+			(at 44.45 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 43.18 0)
+		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
+			(at 40.64 58.7248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,34 +3220,71 @@
 				)
 			)
 		)
-		(pin "6"
-			(uuid "820c2c0e-a97e-43d2-8424-d7cbe5e079fa")
+		(property "Datasheet" ""
+			(at 44.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "7"
-			(uuid "9aea194c-3b8e-47b5-b29d-23081f353014")
+		(property "Description" "CAP CER 10UF 50V X5R 0805"
+			(at 44.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "8"
-			(uuid "c0296acd-0371-4efa-8a1c-ea44c6dd2803")
+		(property "MFR" "Murata Electronics"
+			(at 44.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "5"
-			(uuid "cc6bf14e-971b-42a6-86dc-7a45fdf75121")
+		(property "DPN" "490-18663-1-ND"
+			(at 44.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "68359594-35c8-458e-9a29-fcb9813a3bb2")
-		)
-		(pin "2"
-			(uuid "aecf881b-5a7b-4b42-8ce5-f82db7d459b6")
-		)
-		(pin "4"
-			(uuid "2dcc05d2-a5c3-43de-ac9b-aa80829761de")
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 44.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "44391697-a227-4c6d-8a04-18ebfbe20dd4")
+			(uuid "8c0aa97a-a658-4ae8-b242-76dfcd24e64f")
+		)
+		(pin "2"
+			(uuid "1f9278fc-b5ce-4a2f-80e2-f35634a3acae")
 		)
 		(instances
 			(project "ATTiny"
 				(path "/46ef1815-a8ed-4d38-a82f-c72395c084aa"
-					(reference "ATTiny85-20PU_Socket1")
+					(reference "Electrolytic_Capacitor_Arduino1")
 					(unit 1)
 				)
 			)
