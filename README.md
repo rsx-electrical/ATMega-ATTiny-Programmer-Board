@@ -7,13 +7,13 @@ UofT RSX's ATMega/ATTiny Programmer Board KiCad PCB designs for programming stan
 ## Repository Structure 
 ```
 Programmer-Board/
-├── Programmer/
-│   └── ...
-│
 ├── ATMega/
 │   └── ...
 │
 ├── ATTiny/
+│   └── ...
+│
+├── Programmer Board/
 │   └── ...
 │
 ├── guide.txt
