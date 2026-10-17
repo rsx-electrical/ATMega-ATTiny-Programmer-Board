@@ -90,7 +90,7 @@
 	(footprint "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "36de6732-e127-4297-99a7-af8bc1aa4572")
-		(at 29.325 24.325)
+		(at 32.775 29.6848)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "Arduino_TL_PowerPins1"
@@ -431,7 +431,7 @@
 	(footprint "rsx_resistors:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "445a028a-f63b-41bc-9346-c873d200a516")
-		(at 38.205 38.445)
+		(at 42.825 45.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -676,7 +676,7 @@
 	(footprint "rsx_capacitors:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "9d2476aa-7dc1-4b87-a440-acd612e0148e")
-		(at 42.435 36.185)
+		(at 49.95 41.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "Electrolytic_Capacitor_Arduino1"
@@ -919,7 +919,7 @@
 	(footprint "rsx_misc:CONN8_1-2199298-2_TEC"
 		(layer "F.Cu")
 		(uuid "a01914d8-8b8c-416c-9559-0cf01965b397")
-		(at 40.51 31.6402)
+		(at 43.96 37)
 		(tags "1-2199298-2 ")
 		(property "Reference" "ATTiny85-20PU_Socket1"
 			(at 3.81 -3.81 0)
@@ -1248,7 +1248,7 @@
 	(footprint "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b0d86552-d9ae-497d-b250-fe42d7f138c6")
-		(at 33.925 24.325)
+		(at 37.5 29.6848)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "Arduino_TR_DigitalPins1"
@@ -1589,7 +1589,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f8359793-7b5a-4222-a5a4-e9be0d217a29")
-		(at 38.205 35.935)
+		(at 42.775 41.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "Decoupling_Capacitor1"
