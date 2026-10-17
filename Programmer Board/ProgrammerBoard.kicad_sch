@@ -649,9 +649,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rsx_header:Conn_01x06_Female"
+		(symbol "rsx_header:header_1x4_arduino"
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -660,26 +659,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at -0.254 -15.494 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8288 1.8288)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "Conn_01x06_Female"
-				(at 0 -10.16 0)
+			(property "Value" "header_1x4_arduino"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.8288 1.8288)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -690,7 +692,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411821.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -701,7 +703,7 @@
 					)
 				)
 			)
-			(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
+			(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 4P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -712,7 +714,259 @@
 					)
 				)
 			)
-			(property "MFR" "Sullins Connector Solutions"
+			(property "Manufacturer Part Number" "61000411921"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Category" "Board-to-Board Connectors"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Match Code" "WR-PHD"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink1Description" "Website Link"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000411921?ad"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink2Description" "Datasheet Link"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000411921?ad"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mount" "Surface Mount"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Operating Temperature Max" "105°C"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Operating Temperature Min" "-40°C"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Packaging" "Tube"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Contact Resistance" "20mOhm"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Gender" "Socket Header"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Number of Pins" "4"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Number of Rows" "1"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Orientation" "Vertical"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Pitch" "2.54mm"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Rated Current" "3A"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Working Voltage" "250V"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Withstanding Voltage" "500V"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*61000411921*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -723,58 +977,14 @@
 					)
 				)
 			)
-			(property "DPN" "S7004-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "PPTC061LFBN-RC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x06_Female_1_1"
+			(symbol "header_1x4_arduino_1_0"
 				(polyline
 					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
+						(xy 0 -2.54) (xy 1.778 -2.54)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -782,11 +992,11 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy 0 -5.08) (xy 1.778 -5.08)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -794,11 +1004,11 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 0 -7.62) (xy 1.778 -7.62)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -806,11 +1016,55 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy 0 -10.16) (xy 1.778 -10.16)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -818,104 +1072,20 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
+						(xy 5.08 0) (xy 0 0) (xy 0 -12.7) (xy 5.08 -12.7) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy -0.508 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -8.128)
-					(mid -0.5058 -7.62)
-					(end 0 -7.112)
-					(stroke
-						(width 0.1524)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -931,9 +1101,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -949,9 +1119,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -967,9 +1137,563 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rsx_header:header_1x6_arduino"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.254 -20.574 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "header_1x6_arduino"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300611821.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "61000613321"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Category" "Board-to-Board Connectors"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Match Code" "WR-PHD"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink1Description" "Website Link"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000613321?ad"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink2Description" "Datasheet Link"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000613321?ad"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mount" "Surface Mount"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Operating Temperature Max" "125°C"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Operating Temperature Min" "-40°C"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Packaging" "Tube"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Contact Resistance" "20mOhm"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Gender" "Socket Header"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Number of Pins" "6"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Number of Rows" "1"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Orientation" "Vertical"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Pitch" "2.54mm"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Rated Current" "3A"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Working Voltage" "250V"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Withstanding Voltage" "500V"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*61000613321*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "header_1x6_arduino_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.778 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 1.778 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 1.778 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 1.778 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 1.778 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -12.7)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -15.24)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 0 0) (xy 0 -17.78) (xy 5.08 -17.78) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
 					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -985,9 +1709,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1003,9 +1727,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1013,6 +1737,678 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rsx_header:header_1x8_arduino"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.254 -25.654 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "header_1x8_arduino"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300811821.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 8P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "61000813321"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Category" "Board-to-Board Connectors"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Match Code" "WR-PHD"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink1Description" "Website Link"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000813321?ad"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink2Description" "Datasheet Link"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000813321?ad"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Mount" "Surface Mount"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Operating Temperature Max" "105°C"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Operating Temperature Min" "-40°C"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Packaging" "Tube"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Contact Resistance" "20mOhm"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Gender" "Socket Header"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Number of Pins" "8"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Number of Rows" "1"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Orientation" "Vertical"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Pitch" "2.54mm"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Rated Current" "3A"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Working Voltage" "250V"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Withstanding Voltage" "500V"
+				(at -5.588 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_fp_filters" "*61000813321*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "header_1x8_arduino_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.778 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 1.778 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 1.778 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 1.778 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 1.778 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 1.778 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -20.32) (xy 1.778 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -12.7)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -15.24)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -17.78)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -20.32)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 0 0) (xy 0 -22.86) (xy 5.08 -22.86) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2742,243 +4138,413 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5V"
-		(exclude_from_sim no)
-		(at 24.638 33.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2fe88de1-963f-48ac-b709-23b88a1b98d6")
-	)
-	(text "9"
-		(exclude_from_sim no)
-		(at 108.712 38.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4642884b-46e2-494e-9676-4d99b81e5b02")
-	)
-	(text "RESET"
-		(exclude_from_sim no)
-		(at 24.638 28.194 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "492509b3-78c0-484b-b2d3-db393344870b")
-	)
-	(text "3.3V"
-		(exclude_from_sim no)
-		(at 24.638 30.734 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "722bd796-f6c6-4809-99ca-d8da58d225a1")
-	)
-	(text "11"
-		(exclude_from_sim no)
-		(at 108.712 33.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "77f6925f-f42e-4fe9-8e69-47fe468a393c")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 24.638 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7d81614a-6064-4313-bdf8-6887e0b9db90")
-	)
-	(text "13"
-		(exclude_from_sim no)
-		(at 108.712 28.194 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88e2a2f3-ef49-4ee4-bdb6-d79c1f99146f")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 24.638 38.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a4ebadf1-2737-40f9-a5a8-4465ffc6ed0c")
-	)
-	(text "VIN"
-		(exclude_from_sim no)
-		(at 24.638 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c13bb151-345b-47cb-aa6d-e5f74c8e535e")
-	)
-	(text "8"
-		(exclude_from_sim no)
-		(at 108.712 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cc0c7db8-a851-4bbc-89b9-f319516743a2")
-	)
-	(text "10"
-		(exclude_from_sim no)
-		(at 108.712 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d3525623-498b-408a-959a-0fa30aba4769")
-	)
-	(text "12"
-		(exclude_from_sim no)
-		(at 108.712 30.734 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f8cae91f-aa2b-4666-8613-5246db6fcb01")
-	)
-	(no_connect
-		(at 96.52 95.25)
-		(uuid "01c3ba12-8e21-4b88-a5d4-69370a9c15ca")
-	)
-	(no_connect
-		(at 76.2 107.95)
-		(uuid "247df580-f28e-4b5d-9fe8-caf64e34902f")
-	)
-	(no_connect
-		(at 76.2 105.41)
-		(uuid "2b3187fb-49ff-47cb-9ccc-cdd9ae44fa45")
-	)
-	(no_connect
-		(at 96.52 110.49)
-		(uuid "2fe48b43-30ed-48ca-8011-55f5c204a0d8")
-	)
-	(no_connect
-		(at 96.52 107.95)
-		(uuid "3e2ecdc2-faff-496e-a088-c9e41eebf97c")
-	)
-	(no_connect
-		(at 96.52 80.01)
-		(uuid "43a1d525-f8b7-430a-8434-f63de5cd047a")
-	)
-	(no_connect
-		(at 96.52 82.55)
-		(uuid "4bccf520-8838-4ef1-8389-6ec000e8802c")
-	)
-	(no_connect
-		(at 34.29 85.09)
-		(uuid "4e22e56f-9196-4542-aa5d-c99107a04cb7")
-	)
-	(no_connect
-		(at 96.52 90.17)
-		(uuid "60bb2056-d74c-4d8c-8eb4-c5160a6d6ba9")
-	)
-	(no_connect
-		(at 76.2 90.17)
-		(uuid "61d8299e-efc6-40bd-b511-54d5af80e766")
-	)
-	(no_connect
-		(at 100.33 38.1)
-		(uuid "727c2aea-fe48-4d51-abcc-3e317978abdc")
-	)
-	(no_connect
-		(at 76.2 102.87)
-		(uuid "795cbaae-ae7c-4f03-84ed-0d6cb4061352")
-	)
-	(no_connect
-		(at 76.2 82.55)
-		(uuid "7c260207-78e4-46f6-b009-d8a45f3a4b9e")
-	)
-	(no_connect
-		(at 96.52 87.63)
-		(uuid "869a2f4d-757b-40d7-8d4a-1298436ba602")
-	)
-	(no_connect
-		(at 96.52 85.09)
-		(uuid "86f2f7a5-277c-4f3f-9ea4-820f0293c43f")
-	)
-	(no_connect
-		(at 33.02 40.64)
-		(uuid "a370273e-7cdf-4d41-bc1a-fd11e3cbf0b6")
-	)
-	(no_connect
-		(at 33.02 30.48)
-		(uuid "a5f666c2-0f6f-46f5-a197-e5c5b0e509ce")
-	)
-	(no_connect
-		(at 76.2 87.63)
-		(uuid "ae9ac305-5ae8-4729-b581-f9e6ff9a49b4")
-	)
-	(no_connect
-		(at 76.2 80.01)
-		(uuid "beb4ff70-bbf5-4968-9a3d-80b5c4ca2570")
-	)
-	(no_connect
-		(at 76.2 110.49)
-		(uuid "cb25307c-0e8c-44e3-9b38-042ec5a4eca2")
-	)
-	(no_connect
-		(at 76.2 100.33)
-		(uuid "d10ae085-9849-4639-9039-a8aea9febdec")
-	)
-	(no_connect
-		(at 34.29 87.63)
-		(uuid "d5fe0669-ab33-4493-9fd5-9f10cc081584")
-	)
-	(no_connect
-		(at 96.52 77.47)
-		(uuid "db3591ed-4beb-4653-9f25-de93c2aaa0e8")
-	)
-	(no_connect
-		(at 76.2 97.79)
-		(uuid "e6066184-14fd-4108-9468-e56ef267bc44")
-	)
-	(no_connect
-		(at 76.2 85.09)
-		(uuid "ecb2b1b5-f28d-4dae-b779-956486f3f73d")
-	)
-	(no_connect
-		(at 100.33 40.64)
-		(uuid "f6df9822-0b1e-4c56-86b1-df9fb3103be8")
-	)
-	(wire
-		(pts
-			(xy 33.02 33.02) (xy 35.56 33.02)
-		)
+	(rectangle
+		(start 13.97 90.17)
+		(end 52.07 137.16)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "019f118c-048d-43fa-bd3f-bc1de5e5ad57")
+		(fill
+			(type none)
+		)
+		(uuid "18f87146-be58-48ea-9708-2845bec675bd")
+	)
+	(rectangle
+		(start 63.5 76.2)
+		(end 148.59 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "25315bbb-7f80-4b48-abf8-c29a6134868c")
+	)
+	(rectangle
+		(start 13.97 76.2)
+		(end 62.23 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "61e40351-01c2-457d-b135-628f6a0e8294")
+	)
+	(rectangle
+		(start 53.34 90.17)
+		(end 87.63 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ba69b26e-6a69-4fd6-a993-ed49eaee5d77")
+	)
+	(rectangle
+		(start 13.97 13.97)
+		(end 147.32 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f09bd682-316c-4950-bd1f-18b578148716")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 33.274 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fc86e50-038b-4d5e-bd2f-46a358838a85")
+	)
+	(text "NC"
+		(exclude_from_sim no)
+		(at 33.274 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18173945-9840-4e22-98b7-af8e158bfba8")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 33.274 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d101fd8-ca59-4ad1-bdc3-182ca130e272")
+	)
+	(text "~10"
+		(exclude_from_sim no)
+		(at 123.19 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a004bcf-d68b-4acf-8a54-d85f0e5b270a")
+	)
+	(text "DIGITAL PWM\n"
+		(exclude_from_sim no)
+		(at 122.936 60.706 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5f66b92f-b09b-4cd0-9401-e9491ba53f5f")
+	)
+	(text "~11"
+		(exclude_from_sim no)
+		(at 123.19 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67c2de45-e496-4c7b-bf0f-f18f5f921e0d")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 123.19 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cc4a0e8-a935-4722-a206-0ee5f17b0783")
+	)
+	(text "ANALOG PINS"
+		(exclude_from_sim no)
+		(at 35.052 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82b39712-586f-4d54-81ea-2f3407e7225d")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 33.274 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84efc913-7f8b-4853-b4d4-cea8fd11823c")
+	)
+	(text "IOREF"
+		(exclude_from_sim no)
+		(at 33.274 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "928282b2-1e0f-4291-a106-5898999df601")
+	)
+	(text "~9"
+		(exclude_from_sim no)
+		(at 123.19 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b2ba403-a429-4afc-852b-4979d0246528")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 33.274 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b22f6b2b-b5ca-4fce-aa1c-510e938b083a")
+	)
+	(text "VIN"
+		(exclude_from_sim no)
+		(at 33.274 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c557d94c-33cf-4b05-b5c3-331ba71dfd45")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 33.274 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7bea8f9-65e0-4a80-859c-c161eaeaee4c")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 123.19 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de328582-a9d4-447e-b9e4-af52317fec72")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 123.19 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd98f7b8-7a81-4ce6-a16e-cd82d3bf943e")
+	)
+	(no_connect
+		(at 43.18 111.76)
+		(uuid "01c3ba12-8e21-4b88-a5d4-69370a9c15ca")
+	)
+	(no_connect
+		(at 110.49 54.61)
+		(uuid "056920df-1754-47d4-a7ad-aef8e06af3c7")
+	)
+	(no_connect
+		(at 46.99 29.21)
+		(uuid "07de919d-8fba-4d92-8984-2a95ef07fc52")
+	)
+	(no_connect
+		(at 46.99 69.85)
+		(uuid "14d77a33-8ed6-4cb1-b14e-5ab96da0ac47")
+	)
+	(no_connect
+		(at 110.49 69.85)
+		(uuid "225641b3-4393-4d7d-aea8-f0eb7d697d1b")
+	)
+	(no_connect
+		(at 22.86 124.46)
+		(uuid "247df580-f28e-4b5d-9fe8-caf64e34902f")
+	)
+	(no_connect
+		(at 22.86 121.92)
+		(uuid "2b3187fb-49ff-47cb-9ccc-cdd9ae44fa45")
+	)
+	(no_connect
+		(at 43.18 127)
+		(uuid "2fe48b43-30ed-48ca-8011-55f5c204a0d8")
+	)
+	(no_connect
+		(at 43.18 124.46)
+		(uuid "3e2ecdc2-faff-496e-a088-c9e41eebf97c")
+	)
+	(no_connect
+		(at 46.99 57.15)
+		(uuid "3f95610d-f82a-4670-a671-3f5fd9529113")
+	)
+	(no_connect
+		(at 43.18 96.52)
+		(uuid "43a1d525-f8b7-430a-8434-f63de5cd047a")
+	)
+	(no_connect
+		(at 43.18 99.06)
+		(uuid "4bccf520-8838-4ef1-8389-6ec000e8802c")
+	)
+	(no_connect
+		(at 63.5 96.52)
+		(uuid "4e22e56f-9196-4542-aa5d-c99107a04cb7")
+	)
+	(no_connect
+		(at 110.49 64.77)
+		(uuid "514a60d3-ab17-4a51-9b02-73ce0b7788c7")
+	)
+	(no_connect
+		(at 46.99 62.23)
+		(uuid "527ac9ab-f911-483e-8582-bf1961efbdf9")
+	)
+	(no_connect
+		(at 110.49 52.07)
+		(uuid "58297844-b8c3-4145-87e7-d109ccdf7eb3")
+	)
+	(no_connect
+		(at 43.18 106.68)
+		(uuid "60bb2056-d74c-4d8c-8eb4-c5160a6d6ba9")
+	)
+	(no_connect
+		(at 22.86 106.68)
+		(uuid "61d8299e-efc6-40bd-b511-54d5af80e766")
+	)
+	(no_connect
+		(at 110.49 21.59)
+		(uuid "6fad9167-b496-4f07-9616-6f84d6820bd3")
+	)
+	(no_connect
+		(at 22.86 119.38)
+		(uuid "795cbaae-ae7c-4f03-84ed-0d6cb4061352")
+	)
+	(no_connect
+		(at 22.86 99.06)
+		(uuid "7c260207-78e4-46f6-b009-d8a45f3a4b9e")
+	)
+	(no_connect
+		(at 110.49 67.31)
+		(uuid "818c223d-28e6-4b05-8077-b2053941e506")
+	)
+	(no_connect
+		(at 110.49 57.15)
+		(uuid "85123455-b123-4b2b-9340-e8539e07abe7")
+	)
+	(no_connect
+		(at 110.49 59.69)
+		(uuid "8552fd7c-bae9-419f-90d8-94ad43372980")
+	)
+	(no_connect
+		(at 43.18 104.14)
+		(uuid "869a2f4d-757b-40d7-8d4a-1298436ba602")
+	)
+	(no_connect
+		(at 43.18 101.6)
+		(uuid "86f2f7a5-277c-4f3f-9ea4-820f0293c43f")
+	)
+	(no_connect
+		(at 46.99 36.83)
+		(uuid "8e230ef9-b366-41d1-a51c-6a5534bbd8ff")
+	)
+	(no_connect
+		(at 110.49 62.23)
+		(uuid "949a407b-0e76-48f7-8c48-84b0d64fd0c8")
+	)
+	(no_connect
+		(at 110.49 44.45)
+		(uuid "9f920bff-4b81-4381-9a75-79c5458b72ab")
+	)
+	(no_connect
+		(at 46.99 31.75)
+		(uuid "a8bb0564-5fa7-4873-90fd-02938dd4920c")
+	)
+	(no_connect
+		(at 46.99 46.99)
+		(uuid "acda3e73-b739-4dab-9800-fb519c31533f")
+	)
+	(no_connect
+		(at 22.86 104.14)
+		(uuid "ae9ac305-5ae8-4729-b581-f9e6ff9a49b4")
+	)
+	(no_connect
+		(at 46.99 59.69)
+		(uuid "b61c8b1d-83d2-4579-91ff-35488aefea52")
+	)
+	(no_connect
+		(at 46.99 64.77)
+		(uuid "b961f999-c679-42d3-a905-63144d1c8aed")
+	)
+	(no_connect
+		(at 22.86 96.52)
+		(uuid "beb4ff70-bbf5-4968-9a3d-80b5c4ca2570")
+	)
+	(no_connect
+		(at 110.49 19.05)
+		(uuid "c99e828d-9bbd-48d5-a45c-32937ae13203")
+	)
+	(no_connect
+		(at 110.49 26.67)
+		(uuid "c9bd7711-eb48-45e5-88d3-6700fc49412e")
+	)
+	(no_connect
+		(at 22.86 127)
+		(uuid "cb25307c-0e8c-44e3-9b38-042ec5a4eca2")
+	)
+	(no_connect
+		(at 110.49 41.91)
+		(uuid "cc22bd03-3536-4928-b506-2707b92cbd13")
+	)
+	(no_connect
+		(at 22.86 116.84)
+		(uuid "d10ae085-9849-4639-9039-a8aea9febdec")
+	)
+	(no_connect
+		(at 46.99 67.31)
+		(uuid "d3da9580-a5f3-4a93-9d4e-8575c3aa6d6a")
+	)
+	(no_connect
+		(at 63.5 99.06)
+		(uuid "d5fe0669-ab33-4493-9fd5-9f10cc081584")
+	)
+	(no_connect
+		(at 43.18 93.98)
+		(uuid "db3591ed-4beb-4653-9f25-de93c2aaa0e8")
+	)
+	(no_connect
+		(at 22.86 114.3)
+		(uuid "e6066184-14fd-4108-9468-e56ef267bc44")
+	)
+	(no_connect
+		(at 22.86 101.6)
+		(uuid "ecb2b1b5-f28d-4dae-b779-956486f3f73d")
+	)
+	(no_connect
+		(at 110.49 24.13)
+		(uuid "fbf0a9ce-fc7c-4c5f-b87d-c9ff977cf5ae")
 	)
 	(wire
 		(pts
-			(xy 48.26 54.61) (xy 49.53 54.61)
+			(xy 41.91 85.09) (xy 43.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2988,7 +4554,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 67.31) (xy 107.95 67.31)
+			(xy 138.43 85.09) (xy 140.97 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2998,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 34.29 82.55)
+			(xy 60.96 93.98) (xy 63.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3008,7 +4574,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 76.2 95.25)
+			(xy 20.32 111.76) (xy 22.86 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3018,7 +4584,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 97.79) (xy 99.06 97.79)
+			(xy 43.18 114.3) (xy 45.72 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3028,17 +4594,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 30.48) (xy 100.33 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fbe8e2a-7e1e-4ad3-ab09-4151f93d757d")
-	)
-	(wire
-		(pts
-			(xy 96.52 100.33) (xy 99.06 100.33)
+			(xy 43.18 116.84) (xy 45.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +4604,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 77.47) (xy 76.2 77.47)
+			(xy 20.32 93.98) (xy 22.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3058,17 +4614,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 35.56 38.1)
+			(xy 46.99 34.29) (xy 49.53 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c687b91-e6ee-4ecc-b71e-f2330d0709f3")
+		(uuid "370be5d8-4d44-4972-9a85-4c69bb5ca31e")
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 76.2 92.71)
+			(xy 20.32 109.22) (xy 22.86 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3078,7 +4634,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 99.06 92.71)
+			(xy 43.18 109.22) (xy 45.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3088,7 +4644,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 97.79) (xy 34.29 97.79)
+			(xy 107.95 39.37) (xy 110.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569b4757-6b5c-4aae-92a9-c322a8604c2b")
+	)
+	(wire
+		(pts
+			(xy 60.96 109.22) (xy 63.5 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3098,17 +4664,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 35.56) (xy 100.33 35.56)
+			(xy 93.98 31.75) (xy 110.49 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6007f740-62a7-47e5-aae6-8ec9b17c8f85")
+		(uuid "5c14ae4a-3dd6-4954-b8e4-3da857ece3b4")
 	)
 	(wire
 		(pts
-			(xy 31.75 92.71) (xy 34.29 92.71)
+			(xy 60.96 104.14) (xy 63.5 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3118,7 +4684,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 67.31) (xy 97.79 67.31)
+			(xy 107.95 34.29) (xy 110.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6296e009-46a2-4718-93e6-a3c9998c0a88")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 130.81 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3128,27 +4704,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 27.94) (xy 76.2 27.94)
+			(xy 46.99 39.37) (xy 49.53 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fc362c1-4e32-42f1-832e-ee50c7f34812")
+		(uuid "73b8d696-f5ab-4bb2-a694-8ba0c2d7bbec")
 	)
 	(wire
 		(pts
-			(xy 83.82 27.94) (xy 100.33 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86a595a5-14c1-444e-b388-74abcfbed757")
-	)
-	(wire
-		(pts
-			(xy 77.47 67.31) (xy 80.01 67.31)
+			(xy 110.49 85.09) (xy 113.03 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3158,17 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 33.02) (xy 100.33 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ce11d7d-140b-42e5-ba48-231f5f556114")
-	)
-	(wire
-		(pts
-			(xy 67.31 67.31) (xy 69.85 67.31)
+			(xy 100.33 85.09) (xy 102.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +4734,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 50.8 67.31)
+			(xy 81.28 85.09) (xy 83.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3188,7 +4744,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 67.31) (xy 40.64 67.31)
+			(xy 46.99 44.45) (xy 49.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe60ea4-d859-41ba-a1bd-e9d98f3bc950")
+	)
+	(wire
+		(pts
+			(xy 71.12 85.09) (xy 73.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3198,7 +4764,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 102.87) (xy 99.06 102.87)
+			(xy 43.18 119.38) (xy 45.72 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3208,7 +4774,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 100.33) (xy 34.29 100.33)
+			(xy 107.95 36.83) (xy 110.49 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ac5244-a345-4d7c-9fc2-6de85bb0a8bb")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.76) (xy 63.5 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3218,7 +4794,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 105.41) (xy 99.06 105.41)
+			(xy 83.82 31.75) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c793bbcd-5010-4ba2-88f6-e0229e1616f9")
+	)
+	(wire
+		(pts
+			(xy 43.18 121.92) (xy 45.72 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3228,7 +4814,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 90.17) (xy 34.29 90.17)
+			(xy 60.96 101.6) (xy 63.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3238,27 +4824,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 35.56) (xy 35.56 35.56)
+			(xy 46.99 41.91) (xy 49.53 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebc457b3-e3f7-4f02-b50a-602cf9d85e60")
+		(uuid "f1fe417f-3314-4d40-9138-5051e74a6bfb")
 	)
 	(wire
 		(pts
-			(xy 33.02 27.94) (xy 35.56 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f25055c8-7826-47cd-b02d-a4c3fdda96c7")
-	)
-	(wire
-		(pts
-			(xy 31.75 95.25) (xy 34.29 95.25)
+			(xy 60.96 106.68) (xy 63.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3268,7 +4844,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 54.61) (xy 40.64 54.61)
+			(xy 33.02 85.09) (xy 34.29 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +4853,7 @@
 		(uuid "fdb92d8b-1729-4ddc-960d-541eea375d28")
 	)
 	(label "RESET"
-		(at 73.66 77.47 180)
+		(at 20.32 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3287,7 +4863,17 @@
 		(uuid "0168c2d8-fd1c-4818-8fe9-1e73ea1ee5d3")
 	)
 	(label "MOSI"
-		(at 99.06 105.41 0)
+		(at 107.95 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02537352-6317-4324-a8f5-0d1cbdd0602a")
+	)
+	(label "MOSI"
+		(at 45.72 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3297,7 +4883,7 @@
 		(uuid "0e7ca072-7c39-45db-9f19-2e019604ee46")
 	)
 	(label "GND"
-		(at 50.8 67.31 0)
+		(at 83.82 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3306,8 +4892,18 @@
 		)
 		(uuid "1070f16a-50a5-470a-b0d1-89b88273eb8d")
 	)
+	(label "GND"
+		(at 49.53 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11400f42-b04d-4442-aa5a-73e1cb66b764")
+	)
 	(label "5V"
-		(at 95.25 67.31 180)
+		(at 128.27 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3317,7 +4913,7 @@
 		(uuid "2e952f58-97ac-4457-99f6-1e66008e8c22")
 	)
 	(label "5V"
-		(at 73.66 92.71 180)
+		(at 20.32 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3326,18 +4922,8 @@
 		)
 		(uuid "31795e4f-771b-4798-8b4e-6df66d9ef230")
 	)
-	(label "RESET"
-		(at 97.79 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e336691-0e65-4035-8cf3-77da3a8ff5d4")
-	)
 	(label "SCK"
-		(at 99.06 100.33 0)
+		(at 45.72 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3346,28 +4932,8 @@
 		)
 		(uuid "43f8a5fb-4085-42db-8230-38d204c20788")
 	)
-	(label "MOSI"
-		(at 97.79 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44a91086-0ada-407f-aefd-638e5bfeea4c")
-	)
-	(label "Capacitor_Positive"
-		(at 35.56 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4989c35e-3cef-4699-b3bc-f24a5524a8c3")
-	)
 	(label "GND"
-		(at 99.06 92.71 0)
+		(at 45.72 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,7 +4943,7 @@
 		(uuid "54b01f2b-eec9-4f99-aafd-5af1cdbc1d78")
 	)
 	(label "Capacitor_Positive"
-		(at 39.37 54.61 180)
+		(at 33.02 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3387,7 +4953,7 @@
 		(uuid "54c11663-7e62-4c2b-8fbd-6d2767b3316c")
 	)
 	(label "GND"
-		(at 73.66 95.25 180)
+		(at 20.32 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3397,7 +4963,7 @@
 		(uuid "5865f434-b3f2-4dd2-be4e-f4b74133822b")
 	)
 	(label "5V"
-		(at 31.75 100.33 180)
+		(at 60.96 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3406,28 +4972,8 @@
 		)
 		(uuid "5cd495cf-d3ed-446c-8fa6-087ff2391851")
 	)
-	(label "Capacitor_Negative"
-		(at 35.56 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68d8c696-1695-4e6e-851b-dfc2c84787e2")
-	)
-	(label "MISO"
-		(at 97.79 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d61ddfa-2356-4141-acf6-04806f95f5d7")
-	)
 	(label "5V"
-		(at 38.1 67.31 180)
+		(at 71.12 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3436,8 +4982,18 @@
 		)
 		(uuid "8458e89a-a878-42b2-9d50-c05c7e6cbe6b")
 	)
+	(label "RESET"
+		(at 107.95 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87ec741f-f026-45ab-97cd-eb5c7a3990b1")
+	)
 	(label "MISO"
-		(at 31.75 95.25 180)
+		(at 60.96 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3447,7 +5003,7 @@
 		(uuid "8ab6ef75-ae32-44a1-ba3c-702474f300bc")
 	)
 	(label "MOSI"
-		(at 31.75 92.71 180)
+		(at 60.96 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3457,7 +5013,7 @@
 		(uuid "92ea9323-48cd-453d-aeed-630b0558bca5")
 	)
 	(label "MISO"
-		(at 99.06 102.87 0)
+		(at 45.72 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3466,8 +5022,28 @@
 		)
 		(uuid "a00cdb5d-bc34-4a57-9de0-5c8dcf1d34bb")
 	)
+	(label "5V"
+		(at 49.53 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a62a48a4-e74f-4549-ab80-d76471c53aa6")
+	)
+	(label "MISO"
+		(at 107.95 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a698a153-726b-40d6-8d6f-776eb7c1b79b")
+	)
 	(label "Capacitor_Negative"
-		(at 49.53 54.61 0)
+		(at 43.18 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3477,7 +5053,7 @@
 		(uuid "a9b52d7f-653e-4601-9cc4-adced8ec95ce")
 	)
 	(label "GND"
-		(at 80.01 67.31 0)
+		(at 113.03 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3486,18 +5062,18 @@
 		)
 		(uuid "b3384eac-282a-46eb-8752-d9a100fe7f42")
 	)
-	(label "SCK"
-		(at 73.66 27.94 180)
+	(label "Capacitor_Positive"
+		(at 49.53 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "b752b780-58e1-499e-856d-d7b12780180e")
+		(uuid "b9328a00-65bd-4bb5-b22f-224ca1f840fa")
 	)
 	(label "5V"
-		(at 67.31 67.31 180)
+		(at 100.33 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3507,7 +5083,7 @@
 		(uuid "c5c02237-6812-4233-a0d6-1e0cd63eb0ee")
 	)
 	(label "GND"
-		(at 31.75 90.17 180)
+		(at 60.96 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3517,17 +5093,7 @@
 		(uuid "c845ef6f-1399-4b27-8bfc-85fda9a95cf0")
 	)
 	(label "5V"
-		(at 35.56 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cdd7649b-d63d-4df3-bf7d-8b9956a1f9ec")
-	)
-	(label "5V"
-		(at 99.06 97.79 0)
+		(at 45.72 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3536,18 +5102,8 @@
 		)
 		(uuid "d37fc410-6d65-4c00-bcfc-e3f846bc14cb")
 	)
-	(label "GND"
-		(at 35.56 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d888a631-f0f4-40ff-a3a9-38de1510a9a2")
-	)
 	(label "RESET"
-		(at 31.75 82.55 180)
+		(at 60.96 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3557,7 +5113,7 @@
 		(uuid "dac4add4-7695-4230-a23e-811b64de6a8b")
 	)
 	(label "GND"
-		(at 107.95 67.31 0)
+		(at 140.97 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,7 +5123,17 @@
 		(uuid "e6459734-be1f-4341-b65b-782c7900a3ef")
 	)
 	(label "SCK"
-		(at 31.75 97.79 180)
+		(at 83.82 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4b05a66-6241-4282-8627-c00b9bfa6d09")
+	)
+	(label "SCK"
+		(at 60.96 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3576,9 +5142,19 @@
 		)
 		(uuid "f814537b-22dd-4531-8ad5-01082b8c2a9f")
 	)
+	(label "Capacitor_Negative"
+		(at 49.53 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe72729c-3140-492d-8d07-94ece832558f")
+	)
 	(symbol
 		(lib_id "rsx_Capacitors:10u")
-		(at 44.45 54.61 270)
+		(at 38.1 85.09 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3589,7 +5165,7 @@
 		(dnp no)
 		(uuid "06bffe89-9550-4b7f-9020-6f06297efa33")
 		(property "Reference" "Electrolytic_Capacitor_Arduino1"
-			(at 44.45 48.26 90)
+			(at 38.1 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3599,7 +5175,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 44.45 50.8 90)
+			(at 38.1 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3609,7 +5185,7 @@
 			)
 		)
 		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
-			(at 40.64 53.6448 0)
+			(at 34.29 84.1248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +5196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 54.61 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +5207,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 50V X5R 0805"
-			(at 44.45 54.61 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3642,7 +5218,7 @@
 			)
 		)
 		(property "MFR" "Murata Electronics"
-			(at 44.45 54.61 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3653,7 +5229,7 @@
 			)
 		)
 		(property "DPN" "490-18663-1-ND"
-			(at 44.45 54.61 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3664,7 +5240,7 @@
 			)
 		)
 		(property "MPN" "GRM21BR61H106KE43L"
-			(at 44.45 54.61 0)
+			(at 38.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3691,7 +5267,7 @@
 	)
 	(symbol
 		(lib_id "rsx_misc:ic_conn_28pin")
-		(at 86.36 92.71 0)
+		(at 33.02 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3701,7 +5277,7 @@
 		(dnp no)
 		(uuid "1829495d-5dd3-46e0-9239-f2b6aa8a5719")
 		(property "Reference" "ATMega328-20PU_Socket1"
-			(at 86.614 115.062 0)
+			(at 33.02 131.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3711,7 +5287,7 @@
 			)
 		)
 		(property "Value" "ic_conn_28pin"
-			(at 86.614 117.602 0)
+			(at 33.02 134.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3721,7 +5297,7 @@
 			)
 		)
 		(property "Footprint" "rsx_misc:OST_ED281DT"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +5310,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +5322,7 @@
 			)
 		)
 		(property "Description" "CONN IC DIP SOCKET 28POS TIN"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3757,7 +5333,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,7 +5345,7 @@
 			)
 		)
 		(property "MANUFACTURER" "ON-SHORE TECHNOLOGY,INC"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,7 +5357,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3793,7 +5369,7 @@
 			)
 		)
 		(property "DPN" "ED3050-5-ND"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +5380,7 @@
 			)
 		)
 		(property "MFR" "On Shore Technology Inc."
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3815,7 +5391,7 @@
 			)
 		)
 		(property "MPN" " ED281DT"
-			(at 86.36 92.71 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,8 +5495,8 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_Resistors:10k")
-		(at 80.01 27.94 90)
+		(lib_id "rsx_header:header_1x4_arduino")
+		(at 115.57 16.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3928,30 +5504,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e9eab09-acf7-42cb-927d-864b6b1a4451")
-		(property "Reference" "R1"
-			(at 80.01 21.59 90)
+		(uuid "237adfb9-1f6c-40a4-aa77-7467a3ba07ee")
+		(property "Reference" "Arduino_TR_1"
+			(at 127.254 23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 80.01 24.13 90)
+		(property "Value" "header_1x4_arduino"
+			(at 115.57 16.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
-			(at 80.01 29.718 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 115.57 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,8 +5539,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 80.01 27.94 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411821.pdf"
+			(at 115.57 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,8 +5550,8 @@
 				)
 			)
 		)
-		(property "Description" "RES 10K OHM 5% 1/10W 0603"
-			(at 80.01 27.94 0)
+		(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 4P"
+			(at 115.57 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3983,49 +5561,274 @@
 				)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 80.01 27.94 0)
+		(property "Manufacturer Part Number" "61000411921"
+			(at 109.982 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "RMCF0603JT10K0CT-ND"
-			(at 80.01 27.94 0)
+		(property "Category" "Board-to-Board Connectors"
+			(at 109.982 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0603JT10K0"
-			(at 80.01 27.94 0)
+		(property "Match Code" "WR-PHD"
+			(at 109.982 13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(pin "2"
-			(uuid "d0986b71-9a37-4e62-95e5-e04fe66a7e95")
+		(property "ComponentLink1Description" "Website Link"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000411921?ad"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000411921?ad"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Max" "105°C"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Min" "-40°C"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Packaging" "Tube"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Contact Resistance" "20mOhm"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Gender" "Socket Header"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Pins" "4"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Orientation" "Vertical"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Rated Current" "3A"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Working Voltage" "250V"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Withstanding Voltage" "500V"
+			(at 109.982 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
 		)
 		(pin "1"
-			(uuid "793aefb8-011c-4779-86b1-4c1aa8d4a243")
+			(uuid "4417fb5e-4cc9-405b-9c01-245641b8d844")
+		)
+		(pin "2"
+			(uuid "463f759f-79e4-439a-8b3c-ac68140c03eb")
+		)
+		(pin "4"
+			(uuid "67e4ede7-0bf5-42bc-9ec9-f2ba897b50f4")
+		)
+		(pin "3"
+			(uuid "2a99b932-7798-4fbc-a17e-7cc67f14d8c4")
 		)
 		(instances
 			(project "ProgrammerBoard"
 				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
-					(reference "R1")
+					(reference "Arduino_TR_1")
 					(unit 1)
 				)
 			)
@@ -4033,7 +5836,7 @@
 	)
 	(symbol
 		(lib_id "rsx_Capacitors:100n")
-		(at 40.64 67.31 0)
+		(at 73.66 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4044,7 +5847,7 @@
 		(fields_autoplaced yes)
 		(uuid "37147e61-0900-46cd-b42f-9435b4ee17db")
 		(property "Reference" "Decoupling_Capacitor1"
-			(at 44.45 60.96 0)
+			(at 77.47 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4054,7 +5857,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 44.45 63.5 0)
+			(at 77.47 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4064,7 +5867,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 40.64 67.31 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +5879,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 40.64 67.31 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4088,7 +5891,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 40.64 67.31 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,7 +5902,7 @@
 			)
 		)
 		(property "DPN" "399-C0603C104K5RACTUCT-ND"
-			(at 40.64 67.31 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +5913,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
-			(at 40.64 67.31 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4136,8 +5939,8 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_header:Conn_01x06_Female")
-		(at 105.41 33.02 0)
+		(lib_id "rsx_header:header_1x8_arduino")
+		(at 115.57 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4145,29 +5948,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7d2df980-ebb5-45e0-9bcb-60c5274d86ff")
-		(property "Reference" "Arduino_TR_DigitalPins1"
-			(at 104.14 22.352 0)
+		(uuid "5395bca8-d032-4b85-9179-85ba72fef44b")
+		(property "Reference" "Arduino_BR1"
+			(at 128.016 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_Female"
-			(at 104.14 24.384 0)
+		(property "Value" "header_1x8_arduino"
+			(at 115.57 49.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
-			(at 105.41 33.02 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4177,8 +5983,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 105.41 33.02 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300811821.pdf"
+			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,8 +5994,8 @@
 				)
 			)
 		)
-		(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
-			(at 105.41 33.02 0)
+		(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 8P"
+			(at 115.57 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4199,61 +6005,1090 @@
 				)
 			)
 		)
-		(property "MFR" "Sullins Connector Solutions"
-			(at 105.41 33.02 0)
+		(property "Manufacturer Part Number" "61000813321"
+			(at 109.982 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "DPN" "S7004-ND"
-			(at 105.41 33.02 0)
+		(property "Category" "Board-to-Board Connectors"
+			(at 109.982 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "PPTC061LFBN-RC"
-			(at 105.41 33.02 0)
+		(property "Match Code" "WR-PHD"
+			(at 109.982 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left bottom)
 			)
 		)
-		(pin "1"
-			(uuid "d8d816d9-6747-493f-a12b-69fcbf7208e0")
+		(property "ComponentLink1Description" "Website Link"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000813321?ad"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000813321?ad"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Max" "105°C"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Min" "-40°C"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Packaging" "Tube"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Contact Resistance" "20mOhm"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Gender" "Socket Header"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Pins" "8"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Orientation" "Vertical"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Rated Current" "3A"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Working Voltage" "250V"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Withstanding Voltage" "500V"
+			(at 109.982 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "8"
+			(uuid "2c164ecf-b86f-427c-b729-d81dc3199869")
 		)
 		(pin "3"
-			(uuid "ec9ba0e6-773a-46b0-acea-16e4ce0c4959")
-		)
-		(pin "2"
-			(uuid "002caa75-bc78-44b3-819a-692278a7714e")
-		)
-		(pin "4"
-			(uuid "fd924efa-d45f-4a01-bf18-f6aaf2e2a838")
-		)
-		(pin "6"
-			(uuid "ffe64efe-a06d-461e-85f5-4b18a3a8387b")
+			(uuid "b4455161-89e0-4ca5-b120-1e1bcc9da7da")
 		)
 		(pin "5"
-			(uuid "79ce12b1-c223-4d69-beb1-9e6c3548f0a6")
+			(uuid "057ae431-37b8-4f41-97ce-2e62fee5583c")
+		)
+		(pin "1"
+			(uuid "af6db7c5-c6db-477e-a1a1-c16f629c2159")
+		)
+		(pin "2"
+			(uuid "845cd403-ca6a-491d-8ed7-aab486c84f54")
+		)
+		(pin "4"
+			(uuid "c0f77fd0-bfee-4114-b113-80d911a71b63")
+		)
+		(pin "6"
+			(uuid "fc72039b-5a6c-4713-a043-586122223302")
+		)
+		(pin "7"
+			(uuid "0b016156-6042-46fa-8606-fcde2c30d1b0")
 		)
 		(instances
 			(project "ProgrammerBoard"
 				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
-					(reference "Arduino_TR_DigitalPins1")
+					(reference "Arduino_BR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_header:header_1x6_arduino")
+		(at 115.57 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81b2ccb6-e410-458d-804f-b7c45730fb0f")
+		(property "Reference" "Arduino_TR_2"
+			(at 127.508 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "header_1x6_arduino"
+			(at 115.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 115.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300611821.pdf"
+			(at 115.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 6P"
+			(at 115.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "61000613321"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Category" "Board-to-Board Connectors"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Match Code" "WR-PHD"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000613321?ad"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000613321?ad"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Max" "125°C"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Min" "-40°C"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Packaging" "Tube"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Contact Resistance" "20mOhm"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Gender" "Socket Header"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Pins" "6"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Orientation" "Vertical"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Rated Current" "3A"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Working Voltage" "250V"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Withstanding Voltage" "500V"
+			(at 109.982 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "dc2a3e55-473d-45e8-a784-402e3d0c4d23")
+		)
+		(pin "2"
+			(uuid "072610ea-23b2-44a4-bb0b-7884f64b3835")
+		)
+		(pin "1"
+			(uuid "e862c857-bbb1-4cd1-8212-80f224a6a20b")
+		)
+		(pin "5"
+			(uuid "bebf6662-62d2-4a03-99f4-27dc20dc57b7")
+		)
+		(pin "6"
+			(uuid "a0233faf-aebd-478b-9e65-c180c4f982b9")
+		)
+		(pin "4"
+			(uuid "971097dc-1778-4e84-80cd-52dea79a29ad")
+		)
+		(instances
+			(project "ProgrammerBoard"
+				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
+					(reference "Arduino_TR_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:10k")
+		(at 90.17 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4696c68-50ae-472d-831e-a079d57d502d")
+		(property "Reference" "R2"
+			(at 90.17 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 90.17 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 90.17 33.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 90.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/10W 0603"
+			(at 90.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 90.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603JT10K0CT-ND"
+			(at 90.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603JT10K0"
+			(at 90.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97bbeb7c-89f2-4240-9baf-9fedc55c399a")
+		)
+		(pin "1"
+			(uuid "b86af078-d284-46ca-b703-88abdc37e30d")
+		)
+		(instances
+			(project "ProgrammerBoard"
+				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_header:header_1x6_arduino")
+		(at 41.91 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a644e84b-1ec9-4af6-8424-ed0c48f7e499")
+		(property "Reference" "Arduino_BL1"
+			(at 22.606 62.992 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "header_1x6_arduino"
+			(at 41.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 41.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300611821.pdf"
+			(at 41.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 6P"
+			(at 41.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "61000613321"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Category" "Board-to-Board Connectors"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Match Code" "WR-PHD"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000613321?ad"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000613321?ad"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Max" "125°C"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Min" "-40°C"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Packaging" "Tube"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Contact Resistance" "20mOhm"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Gender" "Socket Header"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Pins" "6"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Orientation" "Vertical"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Rated Current" "3A"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Working Voltage" "250V"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Withstanding Voltage" "500V"
+			(at 47.498 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "5066c0fb-8317-4e17-b9e4-ab9c3855723c")
+		)
+		(pin "2"
+			(uuid "2ccc3eec-f684-49fc-847b-63c75d02d4c9")
+		)
+		(pin "1"
+			(uuid "aa9feb11-3ca9-43d4-adc9-645a80d1c8d4")
+		)
+		(pin "5"
+			(uuid "38a91250-0259-4fb0-a18f-0a6065b20e8e")
+		)
+		(pin "6"
+			(uuid "d992ff4e-f8d6-407d-9eb4-3253398e7a88")
+		)
+		(pin "4"
+			(uuid "039be4e0-f4b3-418e-b10d-ccfe2ce7d57f")
+		)
+		(instances
+			(project "ProgrammerBoard"
+				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
+					(reference "Arduino_BL1")
 					(unit 1)
 				)
 			)
@@ -4261,7 +7096,7 @@
 	)
 	(symbol
 		(lib_id "rsx_misc:ic_conn_8pin")
-		(at 34.29 82.55 0)
+		(at 63.5 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4271,7 +7106,7 @@
 		(dnp no)
 		(uuid "b0fd75b6-f3e7-4f34-a1f9-9e926f5e7c89")
 		(property "Reference" "ATTiny85-20PU_Socket1"
-			(at 31.496 104.902 0)
+			(at 57.658 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4282,7 +7117,7 @@
 			)
 		)
 		(property "Value" "ic_conn_8pin"
-			(at 36.576 107.188 0)
+			(at 62.738 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4293,7 +7128,7 @@
 			)
 		)
 		(property "Footprint" "rsx_misc:CONN8_1-2199298-2_TEC"
-			(at 34.29 82.55 0)
+			(at 63.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +7140,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773906-9_DIP_Socket_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=1-2199298-2&DocFormat=pdf"
-			(at 34.29 82.55 0)
+			(at 63.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,7 +7152,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 82.55 0)
+			(at 63.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +7197,7 @@
 	)
 	(symbol
 		(lib_id "rsx_Capacitors:100n")
-		(at 69.85 67.31 0)
+		(at 102.87 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4373,7 +7208,7 @@
 		(fields_autoplaced yes)
 		(uuid "b275c371-3602-4f93-aaef-d2adeda3104f")
 		(property "Reference" "Decoupling_Capacitor2"
-			(at 73.66 60.96 0)
+			(at 106.68 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4383,7 +7218,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 73.66 63.5 0)
+			(at 106.68 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4393,7 +7228,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 69.85 67.31 0)
+			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4405,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 69.85 67.31 0)
+			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +7252,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 69.85 67.31 0)
+			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4428,7 +7263,7 @@
 			)
 		)
 		(property "DPN" "399-C0603C104K5RACTUCT-ND"
-			(at 69.85 67.31 0)
+			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +7274,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
-			(at 69.85 67.31 0)
+			(at 102.87 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,132 +7300,8 @@
 		)
 	)
 	(symbol
-		(lib_id "rsx_header:Conn_01x06_Female")
-		(at 27.94 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db26a09b-fff0-4002-ace2-4a66d546c72a")
-		(property "Reference" "Arduino_TL_PowerPins1"
-			(at 29.718 21.844 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_Female"
-			(at 29.718 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
-			(at 27.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
-			(at 27.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Sullins Connector Solutions"
-			(at 27.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "S7004-ND"
-			(at 27.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PPTC061LFBN-RC"
-			(at 27.94 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a8a4279-c573-4d3c-928b-16377b86a6b1")
-		)
-		(pin "3"
-			(uuid "f711e755-bf8c-4774-9774-bce7c9e6d150")
-		)
-		(pin "2"
-			(uuid "d40c5839-076d-485c-aa79-b54b8987f731")
-		)
-		(pin "4"
-			(uuid "f44bd386-06f1-4069-ad11-57a000be8c67")
-		)
-		(pin "6"
-			(uuid "1478dedb-daff-40c2-833e-eb5898ce3a05")
-		)
-		(pin "5"
-			(uuid "91823036-7ca1-4df2-87e0-0656b80f9e9c")
-		)
-		(instances
-			(project "ProgrammerBoard"
-				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
-					(reference "Arduino_TL_PowerPins1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "rsx_Capacitors:100n")
-		(at 97.79 67.31 0)
+		(at 130.81 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4601,7 +7312,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea916f3a-e8a4-47cd-ba6f-6e69983e0ff5")
 		(property "Reference" "Decoupling_Capacitor3"
-			(at 101.6 60.96 0)
+			(at 134.62 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4611,7 +7322,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 101.6 63.5 0)
+			(at 134.62 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4621,7 +7332,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.79 67.31 0)
+			(at 130.81 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +7344,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 97.79 67.31 0)
+			(at 130.81 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +7356,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 97.79 67.31 0)
+			(at 130.81 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4656,7 +7367,7 @@
 			)
 		)
 		(property "DPN" "399-C0603C104K5RACTUCT-ND"
-			(at 97.79 67.31 0)
+			(at 130.81 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4667,7 +7378,7 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACTU"
-			(at 97.79 67.31 0)
+			(at 130.81 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,6 +7398,357 @@
 			(project "ProgrammerBoard"
 				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
 					(reference "Decoupling_Capacitor3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_header:header_1x8_arduino")
+		(at 41.91 49.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebade671-f157-4a9e-88f0-fe96c17e0bbf")
+		(property "Reference" "Arduino_TL1"
+			(at 22.352 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+			)
+		)
+		(property "Value" "header_1x8_arduino"
+			(at 41.91 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 41.91 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300811821.pdf"
+			(at 41.91 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WR-PHD Socket Header, SMT, Vertical, pitch 2.54mm, 1 Row, 8P"
+			(at 41.91 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "61000813321"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Category" "Board-to-Board Connectors"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Match Code" "WR-PHD"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/61000813321?ad"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/61000813321?ad"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Max" "105°C"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Operating Temperature Min" "-40°C"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Packaging" "Tube"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Contact Resistance" "20mOhm"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Gender" "Socket Header"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Pins" "8"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Number of Rows" "1"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Orientation" "Vertical"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Rated Current" "3A"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Working Voltage" "250V"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Withstanding Voltage" "500V"
+			(at 47.498 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "7"
+			(uuid "8c0962f7-b679-41ed-9c20-6e74550d46eb")
+		)
+		(pin "6"
+			(uuid "89fc6984-8d31-4ee6-9e97-1e282524fc02")
+		)
+		(pin "3"
+			(uuid "f828ad8a-13c6-4f44-a066-365070b79abc")
+		)
+		(pin "4"
+			(uuid "47a3fddb-06ef-4aa3-a936-41a8473f19cc")
+		)
+		(pin "2"
+			(uuid "168e4232-4c1f-4a5b-90ef-421a00ca7690")
+		)
+		(pin "5"
+			(uuid "0a64935c-67bf-42e3-92a9-74cb6bb5c215")
+		)
+		(pin "8"
+			(uuid "ae3a7d76-9b46-418b-b842-e4a31658bd5d")
+		)
+		(pin "1"
+			(uuid "b324175c-3adf-4a60-a33a-16291b068243")
+		)
+		(instances
+			(project "ProgrammerBoard"
+				(path "/f7704aad-ad16-4b90-9d8d-f0a1a052f845"
+					(reference "Arduino_TL1")
 					(unit 1)
 				)
 			)

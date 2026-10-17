@@ -661,7 +661,7 @@
         "uuid": "f7704aad-ad16-4b90-9d8d-f0a1a052f845"
       }
     ],
-    "used_designators": "Arduino_TL_PowerPins1,Arduino_TR_DigitalPins1,ATTiny85\\-20PU_Socket1,Electrolytic_Capacitor1,Decoupling_Capacitor1-3,U1,X1,R1",
+    "used_designators": "Arduino_TL_PowerPins1,Arduino_TR_DigitalPins1,Electrolytic_Capacitor1,ATTiny85\\-20PU_Socket1,Decoupling_Capacitor1-3,U1,X1,R1-2,J1-5,Arduino_BL1,Arduino_BR1,Arduino_TL1",
     "variants": []
   },
   "sheets": [
