@@ -5,35 +5,37 @@
 	(uuid "f57ee854-066e-4fa1-a69d-b0abf4011cd7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MCU_Microchip_ATmega:ATmega328-P"
+		(symbol "rsx_Capacitors:100n"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 36.83 0)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "ATmega328-P"
-				(at 2.54 -36.83 0)
+			(property "Value" "100n"
+				(at 3.81 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -45,7 +47,19 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
+			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +70,7 @@
 					)
 				)
 			)
-			(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
+			(property "DPN" "399-C0603C104K5RACTUCT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -67,7 +81,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "AVR 8bit Microcontroller MegaAVR"
+			(property "MPN" "C0603C104K5RACTU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -78,7 +92,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_keywords" "C0603C104K5RACTU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,24 +103,70 @@
 					)
 				)
 			)
-			(symbol "ATmega328-P_0_1"
-				(rectangle
-					(start -12.7 -35.56)
-					(end 12.7 35.56)
+			(property "ki_fp_filters" "CAPC17595_95N_KEM CAPC17595_95N_KEM-M CAPC17595_95N_KEM-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "100n_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-			)
-			(symbol "ATmega328-P_1_1"
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
-					(name "~{RESET}/PC6"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,10 +181,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
+				(pin unspecified line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "PD0"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,10 +199,759 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -15.24 180)
+			)
+			(symbol "100n_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
 					(length 2.54)
-					(name "PD1"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rsx_Capacitors:10u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CAP CER 10UF 50V X5R 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DPN" "490-18663-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GRM21BR61H106KE43L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10u_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10u_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rsx_Resistors:10k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RES 10K OHM 5% 1/10W 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Stackpole Electronics Inc"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DPN" "RMCF0603JT10K0CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RMCF0603JT10K0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rsx_header:Conn_01x06_Female"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Female"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Sullins Connector Solutions"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DPN" "S7004-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PPTC061LFBN-RC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Female_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,10 +966,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -17.78 180)
-					(length 2.54)
-					(name "PD2"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -175,10 +984,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -20.32 180)
-					(length 2.54)
-					(name "PD3"
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,10 +1002,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -22.86 180)
-					(length 2.54)
-					(name "PD4"
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -211,399 +1020,657 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 38.1 270)
-					(length 2.54)
-					(name "VCC"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "rsx_misc:ic_conn_28pin"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at -5.08 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ic_conn_28pin"
+				(at -5.08 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "rsx_misc:OST_ED281DT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "CONN IC DIP SOCKET 28POS TIN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "ON-SHORE TECHNOLOGY,INC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DPN" "ED3050-5-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "On Shore Technology Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" " ED281DT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ic_conn_28pin_0_0"
+				(rectangle
+					(start -5.08 17.78)
+					(end 5.08 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 15.24 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 12.7 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -38.1 90)
-					(length 2.54)
-					(name "GND"
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 15.24 180)
-					(length 2.54)
-					(name "XTAL1/PB6"
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 12.7 180)
-					(length 2.54)
-					(name "XTAL2/PB7"
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -25.4 180)
-					(length 2.54)
-					(name "PD5"
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -27.94 180)
-					(length 2.54)
-					(name "PD6"
+				(pin passive line
+					(at -10.16 -12.7 0)
+					(length 5.08)
+					(name "12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -30.48 180)
-					(length 2.54)
-					(name "PD7"
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 5.08)
+					(name "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 30.48 180)
-					(length 2.54)
-					(name "PB0"
+				(pin passive line
+					(at -10.16 -17.78 0)
+					(length 5.08)
+					(name "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 27.94 180)
-					(length 2.54)
-					(name "PB1"
+				(pin passive line
+					(at 10.16 -17.78 180)
+					(length 5.08)
+					(name "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 25.4 180)
-					(length 2.54)
-					(name "PB2"
+				(pin passive line
+					(at 10.16 -15.24 180)
+					(length 5.08)
+					(name "16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 22.86 180)
-					(length 2.54)
-					(name "PB3"
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 5.08)
+					(name "17"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "17"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 20.32 180)
-					(length 2.54)
-					(name "PB4"
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 5.08)
+					(name "18"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "18"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 17.78 180)
-					(length 2.54)
-					(name "PB5"
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "19"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "19"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 38.1 270)
-					(length 2.54)
-					(name "AVCC"
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "20"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "20"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -15.24 30.48 0)
-					(length 2.54)
-					(name "AREF"
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "21"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "21"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -38.1 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "22"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "22"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 2.54)
-					(name "PC0"
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "23"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "23"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "PC1"
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "24"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "24"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "PC2"
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "25"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "25"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "PC3"
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "26"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "26"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(name "PC4"
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 5.08)
+					(name "27"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "27"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "PC5"
+				(pin passive line
+					(at 10.16 15.24 180)
+					(length 5.08)
+					(name "28"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "28"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -611,6 +1678,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 28.448 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0441ca34-7ccd-4935-807a-943ea4e60ad0")
 	)
 	(text "ATMega Project"
 		(exclude_from_sim no)
@@ -622,9 +1699,665 @@
 		)
 		(uuid "362c4334-a71b-45d2-af34-f4a6f0c6a8d9")
 	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 28.448 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3cd50afe-b892-4d79-a282-40e7925795db")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 28.448 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42128991-7994-47cc-aa18-da09c2bb0131")
+	)
+	(text "VIN"
+		(exclude_from_sim no)
+		(at 28.448 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4dab2b1a-fa3c-464b-81d8-1687e58d4306")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 112.522 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d5079c0-4c75-442c-a3a6-81d7828696f3")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 112.522 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7aca5ce4-6117-4164-96b6-8a627b7ad14f")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 28.448 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85a79766-eb06-4c1a-b5f0-76988ccdc5d8")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 112.522 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bba41858-097f-44db-a0ba-723ef24a305b")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 112.522 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9ada813-1268-42f6-9f24-a04d5e6d61f3")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 112.522 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cafb79f6-d264-4f5b-9b66-5547baa71e6c")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 28.448 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf98e080-8c1d-43fa-ae72-de7b9d934e11")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 112.522 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e74784a9-1a4e-42e4-9a2b-c1162b5b00c4")
+	)
+	(no_connect
+		(at 36.83 114.3)
+		(uuid "0db95492-a968-4d10-ac8f-561b22acbee9")
+	)
+	(no_connect
+		(at 104.14 41.91)
+		(uuid "16b1e6c7-f4ca-493b-a0f6-22228742953b")
+	)
+	(no_connect
+		(at 36.83 91.44)
+		(uuid "1be7b335-87e7-448c-8b28-7f077ce876c8")
+	)
+	(no_connect
+		(at 36.83 109.22)
+		(uuid "308d3ffc-8db7-4e74-a6ce-fd3ab5916d53")
+	)
+	(no_connect
+		(at 36.83 104.14)
+		(uuid "313494fc-8afa-4bf6-a2c7-81bef6a63961")
+	)
+	(no_connect
+		(at 36.83 101.6)
+		(uuid "393351a4-c82e-4b38-b61e-e55f02efba4e")
+	)
+	(no_connect
+		(at 104.14 39.37)
+		(uuid "4174fad1-b424-42f9-a80e-7343be1ecefc")
+	)
+	(no_connect
+		(at 57.15 111.76)
+		(uuid "6ef27430-f472-4721-9866-d28da7887ebc")
+	)
+	(no_connect
+		(at 36.83 83.82)
+		(uuid "710fd3e6-cb52-45ff-856a-015d3b4453d2")
+	)
+	(no_connect
+		(at 36.83 86.36)
+		(uuid "83b11245-4b3f-45f1-add0-5f74deee3a94")
+	)
+	(no_connect
+		(at 57.15 91.44)
+		(uuid "891d494e-e9c8-44d4-89dd-ed54e7f950a8")
+	)
+	(no_connect
+		(at 57.15 81.28)
+		(uuid "94171251-7b2d-4430-b3c5-e5500830acb7")
+	)
+	(no_connect
+		(at 57.15 114.3)
+		(uuid "9cbfe125-6d0f-4bb3-8966-6fa261e553d6")
+	)
+	(no_connect
+		(at 36.83 88.9)
+		(uuid "a0dd7cf7-f3c8-41e2-b2d2-9e93b87a5046")
+	)
+	(no_connect
+		(at 57.15 88.9)
+		(uuid "a380c65b-89c7-4aa2-bcb5-74f9f680571a")
+	)
+	(no_connect
+		(at 57.15 86.36)
+		(uuid "af69118f-bdca-4cb6-a6ec-36327ebabdc8")
+	)
+	(no_connect
+		(at 36.83 31.75)
+		(uuid "b40dcf59-2680-4e13-a8d3-cf7870df16f6")
+	)
+	(no_connect
+		(at 36.83 41.91)
+		(uuid "c9cadc81-0077-4a30-ad62-9ae57029b3f7")
+	)
+	(no_connect
+		(at 36.83 93.98)
+		(uuid "ce5a8804-516a-476a-8275-44593a4301d4")
+	)
+	(no_connect
+		(at 36.83 111.76)
+		(uuid "d87a876f-a9c8-4ad6-ae88-0059c43f73d4")
+	)
+	(no_connect
+		(at 57.15 83.82)
+		(uuid "dc571509-300c-4f94-9e6f-09f465cf16b1")
+	)
+	(no_connect
+		(at 57.15 99.06)
+		(uuid "dd021c97-ca62-4534-8ad8-4126e6581380")
+	)
+	(no_connect
+		(at 57.15 93.98)
+		(uuid "e14d1cf9-e1d3-438e-bbf4-a1e8140626ac")
+	)
+	(no_connect
+		(at 36.83 106.68)
+		(uuid "ea8b5992-6ac1-4066-be62-07b99d501af8")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 59.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11892650-f3f7-4afd-8c76-c84097a1f37d")
+	)
+	(wire
+		(pts
+			(xy 43.18 55.88) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130ec562-938e-4458-83fd-aa94747cc946")
+	)
+	(wire
+		(pts
+			(xy 101.6 36.83) (xy 104.14 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d28d572-bca8-49c7-95ac-b874c14701ca")
+	)
+	(wire
+		(pts
+			(xy 57.15 104.14) (xy 59.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2999b42e-32c3-4df8-8c9c-cfb27cacd651")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8fcf57-d3b0-4d56-bca2-6992a1e1c58d")
+	)
+	(wire
+		(pts
+			(xy 41.91 68.58) (xy 44.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3504aee6-318b-44c8-a7b7-7b5166645bfb")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 39.37 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a43417-b0e5-4a1b-9844-1c667a70f99a")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 39.37 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a410614-1fa9-4aa0-9690-0828d52f2afa")
+	)
+	(wire
+		(pts
+			(xy 87.63 29.21) (xy 104.14 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad72a47-9a87-40c6-b4ac-02b1f583ab20")
+	)
+	(wire
+		(pts
+			(xy 36.83 34.29) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da78a7a-b3ba-4b40-8485-e5e8cdf692a6")
+	)
+	(wire
+		(pts
+			(xy 77.47 29.21) (xy 80.01 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e20b10f-222b-4140-b6f4-d26bdccda18f")
+	)
+	(wire
+		(pts
+			(xy 52.07 55.88) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e087005-6a89-45b2-9313-1b3decfe8b59")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9523d7-472a-4622-9960-f64c9d871e41")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 104.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890556e6-7bbc-4144-9936-27058b1f096f")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e4e100-dbdb-4cc0-92c3-92eb669b2711")
+	)
+	(wire
+		(pts
+			(xy 57.15 109.22) (xy 59.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03ab04c-8570-46ba-8e77-51603d3ca177")
+	)
+	(wire
+		(pts
+			(xy 36.83 36.83) (xy 39.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fc4e39-1095-42eb-8d11-83a530df362b")
+	)
+	(wire
+		(pts
+			(xy 101.6 31.75) (xy 104.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52bddcd-2784-4fc2-8365-4465766ea501")
+	)
+	(wire
+		(pts
+			(xy 34.29 99.06) (xy 36.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c277be-8dd0-441d-a214-cfd1a18d16ab")
+	)
+	(wire
+		(pts
+			(xy 52.07 68.58) (xy 54.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33369ae-3e0f-434f-837a-3497b07c5ff5")
+	)
+	(wire
+		(pts
+			(xy 34.29 81.28) (xy 36.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90d73fc-da61-40d6-be31-c923b53af76c")
+	)
+	(wire
+		(pts
+			(xy 57.15 106.68) (xy 59.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9995013-48fb-4b94-a5a4-613e3edff25e")
+	)
+	(wire
+		(pts
+			(xy 34.29 96.52) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc37887a-ef6a-42b0-8823-d80d03570d21")
+	)
+	(label "5V"
+		(at 41.91 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "199aa089-3756-401f-b299-49f8930fa76e")
+	)
+	(label "RESET"
+		(at 34.29 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dca472d-b166-4f0d-83ae-1e599edce626")
+	)
+	(label "MOSI"
+		(at 101.6 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27892781-2d7e-42d5-b407-e8d49d169aaa")
+	)
+	(label "5V"
+		(at 59.69 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e925642-cf94-42f6-a69f-75f37fa05c4c")
+	)
+	(label "GND"
+		(at 59.69 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e7e4c20-2696-44eb-9fb5-3072d58d3276")
+	)
+	(label "MOSI"
+		(at 59.69 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "737a80fd-db02-48fc-b844-2e8b77ba0af8")
+	)
+	(label "SCK"
+		(at 77.47 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77d59b13-7025-4772-b9c1-6af97d7f54a6")
+	)
+	(label "Capacitor_Positive"
+		(at 39.37 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c0acdf9-7083-4c39-b878-71c9a7bc3a56")
+	)
+	(label "Capacitor_Negative"
+		(at 39.37 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b5e42c8-9ad4-42f5-ac23-06e744d211ac")
+	)
+	(label "5V"
+		(at 34.29 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bb874be-2d10-458a-be17-c44f1d369014")
+	)
+	(label "SCK"
+		(at 59.69 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94772185-0743-468f-8aa8-9980a3b61fe5")
+	)
+	(label "Capacitor_Positive"
+		(at 43.18 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97445e27-19b8-4049-bd60-013d1d223f30")
+	)
+	(label "5V"
+		(at 39.37 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac87c78e-e4c4-413a-898f-d6799cd913c9")
+	)
+	(label "GND"
+		(at 34.29 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad7291a0-db9d-454f-aee1-88bcb042be8b")
+	)
+	(label "MISO"
+		(at 59.69 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b476f5ce-dc79-4aa6-9970-aada7a51cd43")
+	)
+	(label "RESET"
+		(at 101.6 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c19d3d33-18e4-41b4-b620-446e986260d1")
+	)
+	(label "5V"
+		(at 71.12 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9b27fb8-2892-4665-9440-9238ba1aa5a1")
+	)
+	(label "GND"
+		(at 54.61 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d785caad-a2eb-4272-aae8-f52f2f9c0e8f")
+	)
+	(label "GND"
+		(at 83.82 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9350982-14c2-4e40-b4e5-e676059e21c0")
+	)
+	(label "Capacitor_Negative"
+		(at 53.34 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef3153d0-4627-460c-bcc2-c628f84e2a0c")
+	)
+	(label "GND"
+		(at 39.37 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3286a94-f04e-44b9-8c16-8526fde23588")
+	)
+	(label "MISO"
+		(at 101.6 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8d16972-d341-46fc-8f82-7172632dbe10")
+	)
 	(symbol
-		(lib_id "MCU_Microchip_ATmega:ATmega328-P")
-		(at 74.93 78.74 0)
+		(lib_id "rsx_Capacitors:100n")
+		(at 44.45 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -633,29 +2366,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e7fbbe4-35ac-47eb-aa2d-5046a777716f")
-		(property "Reference" "U1"
-			(at 53.34 41.8398 0)
+		(uuid "0870e02f-46f5-4069-b8e9-6ae89f056ebc")
+		(property "Reference" "Decoupling_Capacitor1"
+			(at 48.26 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "ATmega328-P"
-			(at 53.34 44.3798 0)
+		(property "Value" "100n"
+			(at 48.26 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 74.93 78.74 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -666,8 +2399,20 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf"
-			(at 74.93 78.74 0)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 44.45 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -677,8 +2422,8 @@
 				)
 			)
 		)
-		(property "Description" "20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"
-			(at 74.93 78.74 0)
+		(property "DPN" "399-C0603C104K5RACTUCT-ND"
+			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -688,94 +2433,834 @@
 				)
 			)
 		)
-		(pin "25"
-			(uuid "b020a0b6-5315-490f-b452-b8482b0b3b6e")
-		)
-		(pin "3"
-			(uuid "542ef3df-386d-4a2e-95db-53450e51b778")
-		)
-		(pin "20"
-			(uuid "0bedc1c1-7cb2-4d59-9685-b5f492ec74c4")
-		)
-		(pin "12"
-			(uuid "1249d993-f12e-4954-9029-b183fcd3538a")
-		)
-		(pin "10"
-			(uuid "a2b3bad4-8228-4d97-95fc-833e45217deb")
-		)
-		(pin "19"
-			(uuid "7b53f46f-1690-4274-906a-fdb99a85a4ec")
-		)
-		(pin "8"
-			(uuid "b2d3ad3d-2cd3-47a4-8749-2515302a2139")
-		)
-		(pin "23"
-			(uuid "203fe2d4-522a-4227-bd48-5559a12e9bd7")
-		)
-		(pin "4"
-			(uuid "a050ec26-f30a-4e99-b7b7-5bebb873a0cb")
-		)
-		(pin "17"
-			(uuid "880ad394-f5bc-4ee8-a96f-b3e3e83daa10")
-		)
-		(pin "24"
-			(uuid "dc440168-94d1-4afd-bd5f-c2024be3d0a2")
-		)
-		(pin "26"
-			(uuid "e202c911-95f9-4357-96a9-ebe0e11844ed")
-		)
-		(pin "6"
-			(uuid "c969acee-7bbe-4bae-a38f-9b002f34c32f")
-		)
-		(pin "1"
-			(uuid "14637e71-381c-490b-8f56-e1c4fc32d59c")
-		)
-		(pin "16"
-			(uuid "5e760ae9-5505-4367-a082-068ceb890d9d")
-		)
-		(pin "11"
-			(uuid "ac7bb1db-475e-430b-90a9-410a27a87cf5")
-		)
-		(pin "7"
-			(uuid "6885a7bb-24e1-44c7-a105-c5c306ede88a")
-		)
-		(pin "18"
-			(uuid "3d836324-b0a4-4eee-9d5a-a533b35572c8")
-		)
-		(pin "13"
-			(uuid "0d293391-fbbd-4193-8442-8a9e99a66123")
-		)
-		(pin "5"
-			(uuid "79a98947-0a5f-4a4d-899c-44dc626cacbc")
-		)
-		(pin "22"
-			(uuid "af59fdc2-f043-40bb-8cff-1d7e5a85b8d7")
-		)
-		(pin "9"
-			(uuid "02d49fef-8aab-4fd0-a9e6-74c1b99193a3")
+		(property "MPN" "C0603C104K5RACTU"
+			(at 44.45 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "6f09a32b-8736-44cd-9937-7ac8409617dd")
+			(uuid "22733aa6-8ac8-4ad0-9d13-670ce0a854f6")
 		)
-		(pin "15"
-			(uuid "95e8d204-5ce1-4732-9686-27140af099ca")
-		)
-		(pin "27"
-			(uuid "9e20acbe-79b4-456d-ae03-66177512d811")
-		)
-		(pin "21"
-			(uuid "390290d3-7465-4fd9-ad73-625563e7a60c")
-		)
-		(pin "14"
-			(uuid "2fb359b4-bbed-4ce6-b3cf-f4fc86c4501e")
-		)
-		(pin "28"
-			(uuid "3374a265-600b-4395-8b9e-e9fc6b426aef")
+		(pin "1"
+			(uuid "ba991fbc-d0ec-4c80-9f54-246f1b482100")
 		)
 		(instances
 			(project "ATMega"
 				(path "/f57ee854-066e-4fa1-a69d-b0abf4011cd7"
-					(reference "U1")
+					(reference "Decoupling_Capacitor1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_header:Conn_01x06_Female")
+		(at 109.22 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31e67aaa-774b-4b7e-aa36-dc0fb4b45fb5")
+		(property "Reference" "Arduino_TR_DigitalPins1"
+			(at 107.95 23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Female"
+			(at 107.95 25.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Sullins Connector Solutions"
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "S7004-ND"
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PPTC061LFBN-RC"
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4d5d061-cf60-45bc-93bb-b0a657d6821c")
+		)
+		(pin "3"
+			(uuid "78acecb9-e465-4cbb-86f9-8baaf0b2aa1f")
+		)
+		(pin "2"
+			(uuid "fadd9530-ea2b-42de-8d3a-502d00a678fd")
+		)
+		(pin "4"
+			(uuid "f1e39e5c-0d29-45b4-90d8-b0386e22bdb6")
+		)
+		(pin "6"
+			(uuid "6040f770-7c44-434e-b686-13a556a2bc56")
+		)
+		(pin "5"
+			(uuid "b1e7d010-7718-453d-bb8b-023d8a1dabee")
+		)
+		(instances
+			(project "ATMega"
+				(path "/f57ee854-066e-4fa1-a69d-b0abf4011cd7"
+					(reference "Arduino_TR_DigitalPins1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Resistors:10k")
+		(at 83.82 29.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a4f180f-007b-494b-a100-864c02efe4cc")
+		(property "Reference" "R1"
+			(at 83.82 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.82 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_resistors:R_0603_1608Metric"
+			(at 83.82 30.988 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 83.82 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/10W 0603"
+			(at 83.82 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 83.82 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "RMCF0603JT10K0CT-ND"
+			(at 83.82 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603JT10K0"
+			(at 83.82 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c221c9d-343b-474e-a08c-b0856237a6b0")
+		)
+		(pin "1"
+			(uuid "1ce54034-3312-458c-9953-1d7f7be53fb9")
+		)
+		(instances
+			(project "ATMega"
+				(path "/f57ee854-066e-4fa1-a69d-b0abf4011cd7"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_header:Conn_01x06_Female")
+		(at 31.75 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cd1a801-0f61-4430-bf01-e3aa8807590b")
+		(property "Reference" "Arduino_TL_PowerPins1"
+			(at 33.528 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Female"
+			(at 33.528 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_headers:PinSocket_1x06_P2.54mm_Vertical"
+			(at 31.75 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HDR 6POS 0.1 TIN PCB"
+			(at 31.75 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Sullins Connector Solutions"
+			(at 31.75 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "S7004-ND"
+			(at 31.75 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PPTC061LFBN-RC"
+			(at 31.75 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46dada6a-fb61-4466-af0f-cfd1c624ce21")
+		)
+		(pin "3"
+			(uuid "3f9de7b7-3e8e-4c90-9a40-b8834f270918")
+		)
+		(pin "2"
+			(uuid "ac5cfd8c-4b25-4a87-b14d-704098ee5ee3")
+		)
+		(pin "4"
+			(uuid "bbf6114f-b069-4c2b-aab0-68c39c392a86")
+		)
+		(pin "6"
+			(uuid "50748dd8-8c64-4cbb-8ead-b63ae401c705")
+		)
+		(pin "5"
+			(uuid "85023336-a6db-4329-8727-de6e9679df3b")
+		)
+		(instances
+			(project "ATMega"
+				(path "/f57ee854-066e-4fa1-a69d-b0abf4011cd7"
+					(reference "Arduino_TL_PowerPins1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Capacitors:100n")
+		(at 73.66 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaa4034a-e01b-4a44-a75f-7257025ee919")
+		(property "Reference" "Decoupling_Capacitor2"
+			(at 77.47 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 77.47 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 73.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 73.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "399-C0603C104K5RACTUCT-ND"
+			(at 73.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 73.66 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c12a806-e814-4115-9fee-59620bfced99")
+		)
+		(pin "1"
+			(uuid "00ba2366-44dd-4f63-9f93-419047162101")
+		)
+		(instances
+			(project "ATMega"
+				(path "/f57ee854-066e-4fa1-a69d-b0abf4011cd7"
+					(reference "Decoupling_Capacitor2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_misc:ic_conn_28pin")
+		(at 46.99 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3223c6b-5600-4eb3-9ec4-69c50b167562")
+		(property "Reference" "ATMega328-20PU_Socket1"
+			(at 47.244 118.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ic_conn_28pin"
+			(at 47.244 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_misc:OST_ED281DT"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "CONN IC DIP SOCKET 28POS TIN"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "D"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "ON-SHORE TECHNOLOGY,INC"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DPN" "ED3050-5-ND"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "On Shore Technology Inc."
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" " ED281DT"
+			(at 46.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4db1e2d1-5089-453a-9bf8-540da6e5c3aa")
+		)
+		(pin "1"
+			(uuid "8d0ad1b4-5511-43de-b6f5-00c58eca92d6")
+		)
+		(pin "6"
+			(uuid "bc5f48af-e679-4599-9d89-f2d471ac8102")
+		)
+		(pin "3"
+			(uuid "44a846dc-180c-4501-bcdf-af2e33736b00")
+		)
+		(pin "9"
+			(uuid "ca8617e0-8b7d-4f7f-a1c8-081ecc1d737c")
+		)
+		(pin "4"
+			(uuid "a76da266-82e2-4170-9f31-877028697282")
+		)
+		(pin "8"
+			(uuid "d4782fb1-0c96-4c16-bf74-6c04fba0ecae")
+		)
+		(pin "5"
+			(uuid "b56cc9bb-4db1-4ca4-8755-0e731f684368")
+		)
+		(pin "10"
+			(uuid "1a0e9a83-31f5-4240-bd17-ccb64c987e3d")
+		)
+		(pin "7"
+			(uuid "61dfa3fd-1421-40a2-89fc-38e819bc8b35")
+		)
+		(pin "11"
+			(uuid "eba2d414-c818-401e-b3ea-736ad290ea23")
+		)
+		(pin "12"
+			(uuid "74fb32c4-fd61-4993-88a2-cd7336951847")
+		)
+		(pin "17"
+			(uuid "1379dcc1-ff3d-4d30-a765-fabf4625f92c")
+		)
+		(pin "15"
+			(uuid "4b4b74d2-1f96-4f44-b253-eae10c341e3f")
+		)
+		(pin "28"
+			(uuid "930307b1-a978-4853-a4d3-4ad6b2d7e55b")
+		)
+		(pin "13"
+			(uuid "1175b7a4-00e4-45ad-8e24-56d7bf6a55e1")
+		)
+		(pin "16"
+			(uuid "3cab53c9-45fe-42f0-baf1-a8e89b00588e")
+		)
+		(pin "22"
+			(uuid "e02f1232-2fc5-439a-8ae7-863399860529")
+		)
+		(pin "25"
+			(uuid "476c8f53-2fa1-4735-be5f-5ce8d99840ae")
+		)
+		(pin "26"
+			(uuid "4dc91220-d071-4548-8e1e-46b6f1ff5584")
+		)
+		(pin "24"
+			(uuid "c523a253-cd6a-41d9-b5eb-a12faf6be027")
+		)
+		(pin "19"
+			(uuid "729ffa3a-3e90-4d97-8355-ed8a18d22431")
+		)
+		(pin "21"
+			(uuid "042e2a26-9403-4d49-9f1b-a8d224d8da88")
+		)
+		(pin "27"
+			(uuid "389163dd-2e86-415b-8bf2-b7f3ae33f2ad")
+		)
+		(pin "14"
+			(uuid "0b037f35-edda-4715-bbfa-c44336ff0f53")
+		)
+		(pin "23"
+			(uuid "6d404d24-b019-47f6-9e08-c00207ec389e")
+		)
+		(pin "20"
+			(uuid "eb30fe12-aa72-4326-b33b-ae3c36b1bce9")
+		)
+		(pin "18"
+			(uuid "9484ce5e-33b3-4892-aa62-32e62fa15bf5")
+		)
+		(instances
+			(project "ATMega"
+				(path "/f57ee854-066e-4fa1-a69d-b0abf4011cd7"
+					(reference "ATMega328-20PU_Socket1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rsx_Capacitors:10u")
+		(at 48.26 55.88 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "deaa2f6a-f40f-43bb-85dc-88bb7cf1490d")
+		(property "Reference" "Electrolytic_Capacitor_Arduino1"
+			(at 48.26 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 48.26 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rsx_capacitors:C_0805_2012Metric"
+			(at 44.45 54.9148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 50V X5R 0805"
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "490-18663-1-ND"
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b65cf114-43f7-4fef-aad2-eafa28261307")
+		)
+		(pin "2"
+			(uuid "53302de2-8677-4ca6-85aa-809f4d856629")
+		)
+		(instances
+			(project "ATMega"
+				(path "/f57ee854-066e-4fa1-a69d-b0abf4011cd7"
+					(reference "Electrolytic_Capacitor_Arduino1")
 					(unit 1)
 				)
 			)
