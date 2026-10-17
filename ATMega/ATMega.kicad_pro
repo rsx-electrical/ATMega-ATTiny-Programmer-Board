@@ -661,7 +661,7 @@
         "uuid": "f57ee854-066e-4fa1-a69d-b0abf4011cd7"
       }
     ],
-    "used_designators": "U1,Arduino_TL_PowerPins1,Arduino_TR_DigitalPins1,ATTiny85\\-20PU_Socket1,ATMega328\\-20PU_Socket1,Decoupling_Capacitor1-3,Electrolytic_Capacitor_Arduino1,R1",
+    "used_designators": "U1,Arduino_TL_PowerPins1,Arduino_TR_DigitalPins1,ATTiny85\\-20PU_Socket1,Arduino_TR_1-2,ATMega328\\-20PU_Socket1,Decoupling_Capacitor1-3,Electrolytic_Capacitor_Arduino1,R1-2,Arduino_BL1,Arduino_BR1,Arduino_TL1",
     "variants": []
   },
   "sheets": [
