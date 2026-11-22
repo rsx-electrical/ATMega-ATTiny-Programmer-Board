@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProgrammerBoard")(type "KiCad")(uri "${KIPRJMOD}/ProgrammerBoard.pretty")(options "")(descr "Uno shield mechanics"))
+)

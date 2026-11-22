@@ -105,7 +105,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -127,7 +127,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -140,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -661,7 +661,7 @@
         "uuid": "f7704aad-ad16-4b90-9d8d-f0a1a052f845"
       }
     ],
-    "used_designators": "U1,Electrolytic_Capacitor1,ATTiny85\\-20PU_Socket1,Arduino_TL_PowerPins1,Decoupling_Capacitor1-3,X1,Arduino_TR_DigitalPins1,J1-5,Arduino_BR1,R1-2,Arduino_BL1,Arduino_TL1",
+    "used_designators": "U1-2,J1-7,Y1,R2,C1-7",
     "variants": []
   },
   "sheets": [

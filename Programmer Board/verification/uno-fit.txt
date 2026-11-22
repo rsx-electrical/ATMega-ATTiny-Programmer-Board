@@ -1,0 +1,1 @@
+32/32 Uno header centers and 4/4 mounting-hole centers match exactly. ISP and supply nets correct at both sockets. DIP row order, outline, and assembly sides verified.
